@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Tooth Logo -->
+    <item
+        android:drawable="@drawable/ic_tooth_splash">
+    </item>
+    <!-- Chat Bubble Overlay - Accurately positioned relative to tooth -->
+    <item
+        android:width="42dp"
+        android:height="42dp"
+        android:gravity="bottom|end"
+        android:bottom="12dp"
+        android:right="2dp"
+        android:drawable="@drawable/ic_chat_bubble_splash">
+    </item>
+</layer-list>

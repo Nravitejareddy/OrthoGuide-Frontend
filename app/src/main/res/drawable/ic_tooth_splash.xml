@@ -1,0 +1,28 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Molar Tooth Body Shape -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M50,18 C35,18 20,15 20,35 C20,55 25,90 38,90 C45,90 47,78 50,78 C53,78 55,90 62,90 C75,90 80,55 80,35 C80,15 65,18 50,18 Z" />
+
+    <!-- Vertical Oval Eyes -->
+    <path
+        android:fillColor="@color/brand_green"
+        android:pathData="M37,45 m-5,0 a5,9 0,1 1,10 0 a5,9 0,1 1,-10 0" />
+    <path
+        android:fillColor="@color/brand_green"
+        android:pathData="M63,45 m-5,0 a5,9 0,1 1,10 0 a5,9 0,1 1,-10 0" />
+
+    <!-- Perfectly Curved Smile -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="@color/brand_green"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:pathData="M38,62 C42,70 58,70 62,62" />
+
+</vector>

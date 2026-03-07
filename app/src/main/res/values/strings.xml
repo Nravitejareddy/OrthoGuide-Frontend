@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">OrthoGuide</string>
+    <string name="patient_login_title">Patient Login</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="welcome_subtitle">Enter your credentials to access your treatment plan</string>
+    <string name="patient_id">Patient ID</string>
+    <string name="patient_id_hint">e.g. 100234567890</string>
+    <string name="patient_id_helper">10-12 digit number</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="authenticated_via">Authenticated via DIAS Secure Gateway</string>
+    <string name="secure_login">Secure Login</string>
+
+    <!-- Consent & Data Screen -->
+    <string name="consent_title">Consent &amp; Data</string>
+    <string name="consent_intro">Before we begin, please review and accept the following terms regarding your treatment data and AI assistance.</string>
+    <string name="ai_support_title">AI Support Consent</string>
+    <string name="ai_support_desc">I understand that OrthoCare AI provides guidance based on my data but does not replace professional medical advice.</string>
+    <string name="dias_data_title">DIAS Data Usage</string>
+    <string name="dias_data_desc">I agree to have my treatment data synced with the Dental Integrated Analytics System for clinical monitoring.</string>
+    <string name="privacy_policy_title">Privacy Policy</string>
+    <string name="privacy_policy_desc">I have read and agree to the Privacy Policy and Terms of Service.</string>
+    <string name="read_policy">Read Policy</string>
+    <string name="continue_text">Continue</string>
+
+    <!-- AI Capabilities Screen -->
+    <string name="ai_capabilities_title">AI Capabilities</string>
+    <string name="what_ai_can_do">What AI Can Do</string>
+    <string name="ai_can_do_1">Answer questions about your appliance care</string>
+    <string name="ai_can_do_2">Provide guidance for minor discomfort</string>
+    <string name="ai_can_do_3">Remind you about elastics and hygiene</string>
+    <string name="ai_can_do_4">Explain your treatment progress</string>
+    <string name="what_ai_cannot_do">What AI Cannot Do</string>
+    <string name="ai_cannot_do_1">Diagnose medical conditions</string>
+    <string name="ai_cannot_do_2">Prescribe medication</string>
+    <string name="ai_cannot_do_3">Handle medical emergencies</string>
+    <string name="emergency_warning_text">If you experience severe pain, bleeding, or trauma, please contact your clinic immediately or visit the emergency room.</string>
+    <string name="i_understand">I Understand</string>
+
+    <!-- Login Success Screen -->
+    <string name="login_successful">Login Successful</string>
+    <string name="welcome_back_user">Welcome back, Sarah</string>
+    <string name="dias_sync_title">DIAS SYNC</string>
+    <string name="dias_sync_status">Updated just now</string>
+
+    <!-- Dashboard Screen -->
+    <string name="dashboard_app_name">OrthoGuide</string>
+    <string name="dashboard_greeting">Good Morning,</string>
+    <string name="dashboard_user_name">Sarah Anderson</string>
+    <string name="treatment_in_progress">Treatment in Progress</string>
+    <string name="treatment_complete_pct">33%</string>
+    <string name="complete_label">COMPLETE</string>
+    <string name="current_stage_label">Current Stage</string>
+    <string name="current_stage_value">Alignment Phase</string>
+    <string name="next_appointment_label">NEXT APPOINTMENT</string>
+    <string name="appointment_title">Regular Checkup</string>
+    <string name="appointment_details">10:30 AM • Dr. Smith</string>
+    <string name="quick_actions_label">QUICK ACTIONS</string>
+    <string name="action_ai_assistant">AI Assistant</string>
+    <string name="action_reminders">Reminders</string>
+    <string name="action_care_guide">Care Guide</string>
+    <string name="action_report_issue">Report Issue</string>
+    
+    <!-- Bottom Nav -->
+    <string name="nav_home">Home</string>
+    <string name="nav_chat">Chat</string>
+    <string name="nav_progress">Progress</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Progress Screen -->
+    <string name="my_progress_title">My Progress</string>
+    <string name="progress_subtitle">Track your treatment journey</string>
+    <string name="treatment_journey_label">TREATMENT JOURNEY</string>
+    
+    <string name="stage_1_title">Initial Consultation</string>
+    <string name="stage_1_date">Aug 15, 2025</string>
+    <string name="stage_2_title">Bonding / First Trays</string>
+    <string name="stage_2_date">Sep 01, 2025</string>
+    <string name="stage_3_title">Alignment Phase</string>
+    <string name="stage_3_status_current">Current</string>
+    <string name="stage_4_title">Bite Correction</string>
+    <string name="stage_4_est">Est. Jan 2026</string>
+    <string name="stage_5_title">Finishing &amp; Detailing</string>
+    <string name="stage_5_est">Est. Jun 2026</string>
+    <string name="stage_6_title">Debonding &amp; Retention</string>
+    <string name="stage_6_est">Est. Aug 2026</string>
+    
+    <string name="status_done">DONE</string>
+    <string name="status_current">CURRENT</string>
+</resources>
