@@ -68,6 +68,15 @@ class ClinicianDashboardActivity : AppCompatActivity() {
             }
         }
 
+        // View All Patients
+        findViewById<View>(R.id.tv_view_all_patients)?.setOnClickListener {
+            startActivity(android.content.Intent(this, PatientsActivity::class.java).apply {
+                addFlags(android.content.Intent.FLAG_ACTIVITY_REORDER_TO_FRONT)
+            })
+            @Suppress("DEPRECATION")
+            overridePendingTransition(0, 0)
+        }
+
         // Open Patient Profile
         val openProfile = View.OnClickListener { view ->
             val intent = android.content.Intent(this, PatientProfileActivity::class.java)
