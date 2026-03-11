@@ -100,7 +100,8 @@ class PatientProfileActivity : AppCompatActivity() {
         val tvStageSelected = findViewById<android.widget.TextView>(R.id.tv_stage_selected)
         
         llStageDropdown?.setOnClickListener { view ->
-            val popup = android.widget.PopupMenu(this, view)
+            val wrapper = android.view.ContextThemeWrapper(this, R.style.WhitePopupMenuTheme)
+            val popup = android.widget.PopupMenu(wrapper, view)
             val stages = listOf(
                 "Pre-Treatment", 
                 "Bonding / First Trays", 
@@ -273,7 +274,8 @@ class PatientProfileActivity : AppCompatActivity() {
             
             // Appointment Type Dropdown
             view.findViewById<View>(R.id.ll_type_dropdown)?.setOnClickListener { dropdownView ->
-                val popup = android.widget.PopupMenu(this, dropdownView)
+                val wrapper = android.view.ContextThemeWrapper(this, R.style.WhitePopupMenuTheme)
+                val popup = android.widget.PopupMenu(wrapper, dropdownView)
                 val types = listOf("Regular Checkup", "Emergency", "Fitting", "Consultation")
                 types.forEachIndexed { index, type ->
                     popup.menu.add(0, index, 0, type)

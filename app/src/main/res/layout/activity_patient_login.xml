@@ -114,25 +114,25 @@
                     android:padding="24dp"
                     android:orientation="vertical">
 
-                    <!-- Email Address Field -->
+                    <!-- Patient ID Field -->
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Email Address"
+                        android:text="Patient ID"
                         android:textColor="#1A1C21"
                         android:textSize="15sp"
                         android:textStyle="bold" />
 
                     <EditText
-                        android:id="@+id/et_email_address_field"
+                        android:id="@+id/et_patient_id_field"
                         android:layout_width="match_parent"
                         android:layout_height="54dp"
                         android:layout_marginTop="12dp"
                         android:background="@drawable/bg_edittext_rounded"
-                        android:hint="e.g. robert@example.com"
-                        android:inputType="textEmailAddress"
+                        android:hint="e.g. PT-12345"
+                        android:inputType="text"
                         android:paddingHorizontal="16dp"
-                        android:drawableStart="@drawable/ic_mail_outline"
+                        android:drawableStart="@drawable/ic_user_silhouette"
                         android:drawablePadding="12dp"
                         android:drawableTint="#8E949A"
                         android:textColor="#1A1C21"
@@ -143,7 +143,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
-                        android:text="Enter your registered email"
+                        android:text="Enter your registered patient ID"
                         android:textColor="#8E949A"
                         android:textSize="12sp" />
 
