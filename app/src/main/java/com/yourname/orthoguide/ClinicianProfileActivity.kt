@@ -42,11 +42,6 @@ class ClinicianProfileActivity : AppCompatActivity() {
             startActivity(Intent(this, ClinicianEditProfileActivity::class.java))
         }
 
-        findViewById<LinearLayout>(R.id.ll_notification_prefs)?.setOnClickListener {
-            val intent = Intent(this, NotificationPreferencesActivity::class.java)
-            intent.putExtra("isClinician", true)
-            startActivity(intent)
-        }
 
         findViewById<LinearLayout>(R.id.ll_manage_account)?.setOnClickListener {
             val intent = Intent(this, ManageAccountActivity::class.java)

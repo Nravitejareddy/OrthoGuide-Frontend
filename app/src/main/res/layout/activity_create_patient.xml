@@ -24,7 +24,7 @@
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:src="@drawable/ic_chevron_left"
-            android:tint="#1E293B"
+            app:tint="#1E293B"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -84,156 +84,143 @@
                     android:paddingHorizontal="20dp">
 
                     <!-- ID Input -->
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="PATIENT ID"
-                        android:textColor="#64748B"
-                        android:textSize="12sp"
-                        android:textStyle="bold"
-                        android:layout_marginBottom="8dp"/>
-
-                    <com.google.android.material.textfield.TextInputLayout
-                        android:id="@+id/til_patient_id"
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="20dp"
-                        app:boxBackgroundColor="@color/white"
-                        app:boxCornerRadiusTopStart="12dp"
-                        app:boxCornerRadiusTopEnd="12dp"
-                        app:boxCornerRadiusBottomStart="12dp"
-                        app:boxCornerRadiusBottomEnd="12dp"
-                        app:boxStrokeColor="#E2E8F0"
-                        app:boxStrokeWidth="1dp"
-                        app:hintEnabled="false"
-                        app:startIconDrawable="@drawable/ic_search_grey"
-                        app:startIconTint="#94A3B8">
-
-                        <com.google.android.material.textfield.TextInputEditText
+                        android:orientation="vertical">
+                        
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="PATIENT ID"
+                            android:textColor="#6B7280"
+                            android:textSize="13sp" />
+                            
+                        <EditText
                             android:id="@+id/et_patient_id"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:background="@null"
                             android:hint="PT005"
                             android:textColorHint="#94A3B8"
-                            android:textColor="#334155"
-                            android:paddingVertical="16dp"
-                            android:textSize="16sp" />
-                    </com.google.android.material.textfield.TextInputLayout>
+                            android:textColor="#1F2937"
+                            android:textSize="16sp"
+                            android:importantForAutofill="no" />
+                            
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="8dp"
+                            android:background="#E5E7EB" />
+                    </LinearLayout>
 
                     <!-- Name Input -->
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="PATIENT NAME"
-                        android:textColor="#64748B"
-                        android:textSize="12sp"
-                        android:textStyle="bold"
-                        android:layout_marginBottom="8dp"/>
-
-                    <com.google.android.material.textfield.TextInputLayout
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="20dp"
-                        app:boxBackgroundColor="@color/white"
-                        app:boxCornerRadiusTopStart="12dp"
-                        app:boxCornerRadiusTopEnd="12dp"
-                        app:boxCornerRadiusBottomStart="12dp"
-                        app:boxCornerRadiusBottomEnd="12dp"
-                        app:boxStrokeColor="#E2E8F0"
-                        app:boxStrokeWidth="1dp"
-                        app:hintEnabled="false"
-                        app:startIconDrawable="@drawable/ic_profile_nav"
-                        app:startIconTint="#94A3B8">
-
-                        <com.google.android.material.textfield.TextInputEditText
+                        android:layout_marginTop="24dp"
+                        android:orientation="vertical">
+                        
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="PATIENT NAME"
+                            android:textColor="#6B7280"
+                            android:textSize="13sp" />
+                            
+                        <EditText
                             android:id="@+id/et_patient_name"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:background="@null"
                             android:hint="John Doe"
                             android:textColorHint="#94A3B8"
-                            android:textColor="#334155"
-                            android:paddingVertical="16dp"
-                            android:textSize="16sp" />
-                    </com.google.android.material.textfield.TextInputLayout>
+                            android:textColor="#1F2937"
+                            android:textSize="16sp"
+                            android:inputType="textPersonName"
+                            android:importantForAutofill="no" />
+                            
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="8dp"
+                            android:background="#E5E7EB" />
+                    </LinearLayout>
 
-                    <!-- Role Input -->
-                    <TextView
-                        android:layout_width="wrap_content"
+                    <!-- Email Input -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="EMAIL (OPTIONAL)"
-                        android:textColor="#64748B"
-                        android:textSize="12sp"
-                        android:textStyle="bold"
-                        android:layout_marginBottom="8dp"/>
-
-                    <com.google.android.material.textfield.TextInputLayout
-                                                android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="20dp"
-                        app:boxBackgroundColor="@color/white"
-                        app:boxCornerRadiusTopStart="12dp"
-                        app:boxCornerRadiusTopEnd="12dp"
-                        app:boxCornerRadiusBottomStart="12dp"
-                        app:boxCornerRadiusBottomEnd="12dp"
-                        app:boxStrokeColor="#E2E8F0"
-                        app:boxStrokeWidth="1dp"
-                        app:hintEnabled="false"
-                        app:startIconDrawable="@drawable/ic_mail_outline"
-                        app:startIconTint="#94A3B8">
-
-                        <com.google.android.material.textfield.TextInputEditText
+                        android:layout_marginTop="24dp"
+                        android:orientation="vertical">
+                        
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="EMAIL (OPTIONAL)"
+                            android:textColor="#6B7280"
+                            android:textSize="13sp" />
+                            
+                        <EditText
                             android:id="@+id/et_patient_email"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:background="@null"
                             android:hint="john@example.com"
                             android:textColorHint="#94A3B8"
-                            android:textColor="#334155"
-                            android:paddingVertical="16dp"
+                            android:textColor="#1F2937"
                             android:textSize="16sp"
                             android:inputType="textEmailAddress"
-                             />
-                    </com.google.android.material.textfield.TextInputLayout>
+                            android:importantForAutofill="no" />
+                            
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="8dp"
+                            android:background="#E5E7EB" />
+                    </LinearLayout>
 
                     <!-- Phone Input -->
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="PHONE NUMBER"
-                        android:textColor="#64748B"
-                        android:textSize="12sp"
-                        android:textStyle="bold"
-                        android:layout_marginBottom="8dp"/>
-
-                    <com.google.android.material.textfield.TextInputLayout
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="4dp"
-                        app:boxBackgroundColor="@color/white"
-                        app:boxCornerRadiusTopStart="12dp"
-                        app:boxCornerRadiusTopEnd="12dp"
-                        app:boxCornerRadiusBottomStart="12dp"
-                        app:boxCornerRadiusBottomEnd="12dp"
-                        app:boxStrokeColor="#E2E8F0"
-                        app:boxStrokeWidth="1dp"
-                        app:hintEnabled="false"
-                        app:startIconDrawable="@drawable/ic_phone"
-                        app:startIconTint="#94A3B8">
-
-                        <com.google.android.material.textfield.TextInputEditText
+                        android:layout_marginTop="24dp"
+                        android:orientation="vertical">
+                        
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="PHONE NUMBER"
+                            android:textColor="#6B7280"
+                            android:textSize="13sp" />
+                            
+                        <EditText
                             android:id="@+id/et_phone"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:background="@null"
                             android:hint="+91 98765 43210"
                             android:textColorHint="#94A3B8"
-                            android:textColor="#334155"
-                            android:paddingVertical="16dp"
+                            android:textColor="#1F2937"
+                            android:textSize="16sp"
                             android:inputType="phone"
-                            android:textSize="16sp" />
-                    </com.google.android.material.textfield.TextInputLayout>
+                            android:importantForAutofill="no" />
+                            
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="8dp"
+                            android:background="#E5E7EB" />
+                    </LinearLayout>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
                         android:text="Used as the initial password"
                         android:textColor="#94A3B8"
                         android:textSize="13sp"
@@ -264,7 +251,7 @@
                         android:layout_width="20dp"
                         android:layout_height="20dp"
                         android:src="@drawable/ic_warning_purple"
-                        android:tint="#A855F7" />
+                        app:tint="#A855F7" />
                         
                     <TextView
                         android:layout_width="0dp"

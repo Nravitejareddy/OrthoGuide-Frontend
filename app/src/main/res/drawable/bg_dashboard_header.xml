@@ -1,40 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- Base Gradient -->
-    <item>
-        <shape android:shape="rectangle">
-            <gradient
-                android:angle="270"
-                android:endColor="#059669"
-                android:startColor="#10B981" />
-            <corners
-                android:bottomLeftRadius="36dp"
-                android:bottomRightRadius="36dp" />
-        </shape>
-    </item>
-    
-    <!-- Top Right Radial Glow -->
-    <item android:bottom="40dp">
-        <shape android:shape="rectangle">
-            <gradient
-                android:type="radial"
-                android:gradientRadius="250dp"
-                android:centerX="1.0"
-                android:centerY="0.0"
-                android:startColor="#26FFFFFF"
-                android:endColor="#00FFFFFF" />
-            <corners
-                android:topRightRadius="0dp" />
-        </shape>
-    </item>
-
-    <!-- Subtle Top Sheen -->
-    <item android:bottom="140dp">
-        <shape android:shape="rectangle">
-            <gradient
-                android:angle="270"
-                android:startColor="#0AFFFFFF"
-                android:endColor="#00FFFFFF" />
-        </shape>
-    </item>
-</layer-list>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:angle="225"
+        android:endColor="#0DAA74"
+        android:startColor="#17C98C" />
+    <corners
+        android:bottomLeftRadius="48dp"
+        android:bottomRightRadius="48dp" />
+</shape>

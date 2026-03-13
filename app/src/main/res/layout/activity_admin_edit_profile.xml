@@ -72,116 +72,101 @@
                     android:padding="24dp">
 
                     <!-- Admin Name -->
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Admin Name"
-                        android:textColor="#64748B"
-                        android:textSize="14sp"
-                        android:fontFamily="sans-serif-medium" />
-
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="56dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginBottom="20dp"
-                        android:background="@drawable/bg_edittext_rounded"
-                        android:gravity="center_vertical"
-                        android:orientation="horizontal"
-                        android:paddingHorizontal="16dp">
-
-                        <ImageView
-                            android:layout_width="20dp"
-                            android:layout_height="20dp"
-                            android:src="@drawable/ic_user_silhouette"
-                            android:tint="#94A3B8" />
-
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Admin Name"
+                            android:textColor="#6B7280"
+                            android:textSize="13sp" />
+                            
                         <EditText
                             android:id="@+id/et_admin_name"
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_marginStart="12dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
                             android:background="@null"
-                            android:hint="Admin Name"
-                            android:inputType="textPersonName"
                             android:text="System Admin"
-                            android:textColor="#1E293B"
-                            android:textSize="16sp" />
+                            android:textColor="#1F2937"
+                            android:textSize="16sp"
+                            android:inputType="textPersonName"
+                            android:importantForAutofill="no" />
+                            
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="8dp"
+                            android:background="#E5E7EB" />
                     </LinearLayout>
 
                     <!-- Contact Email -->
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Contact Email"
-                        android:textColor="#64748B"
-                        android:textSize="14sp"
-                        android:fontFamily="sans-serif-medium" />
-
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="56dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginBottom="20dp"
-                        android:background="@drawable/bg_edittext_rounded"
-                        android:gravity="center_vertical"
-                        android:orientation="horizontal"
-                        android:paddingHorizontal="16dp">
-
-                        <ImageView
-                            android:layout_width="20dp"
-                            android:layout_height="20dp"
-                            android:src="@drawable/ic_mail_outline"
-                            android:tint="#94A3B8" />
-
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:orientation="vertical">
+                        
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Contact Email"
+                            android:textColor="#6B7280"
+                            android:textSize="13sp" />
+                            
                         <EditText
                             android:id="@+id/et_contact_email"
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_marginStart="12dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
                             android:background="@null"
-                            android:hint="Contact Email"
-                            android:inputType="textEmailAddress"
                             android:text="admin@orthoguide.com"
-                            android:textColor="#1E293B"
-                            android:textSize="16sp" />
+                            android:textColor="#1F2937"
+                            android:textSize="16sp"
+                            android:inputType="textEmailAddress"
+                            android:importantForAutofill="no" />
+                            
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="8dp"
+                            android:background="#E5E7EB" />
                     </LinearLayout>
 
                     <!-- Contact Phone -->
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Contact Phone"
-                        android:textColor="#64748B"
-                        android:textSize="14sp"
-                        android:fontFamily="sans-serif-medium" />
-
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="56dp"
-                        android:layout_marginTop="10dp"
-                        android:background="@drawable/bg_edittext_rounded"
-                        android:gravity="center_vertical"
-                        android:orientation="horizontal"
-                        android:paddingHorizontal="16dp">
-
-                        <ImageView
-                            android:layout_width="20dp"
-                            android:layout_height="20dp"
-                            android:src="@drawable/ic_phone"
-                            android:tint="#94A3B8" />
-
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:orientation="vertical">
+                        
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Contact Phone"
+                            android:textColor="#6B7280"
+                            android:textSize="13sp" />
+                            
                         <EditText
                             android:id="@+id/et_contact_phone"
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_marginStart="12dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
                             android:background="@null"
-                            android:hint="Contact Phone"
-                            android:inputType="phone"
                             android:text="+91 98765 43210"
-                            android:textColor="#1E293B"
-                            android:textSize="16sp" />
+                            android:textColor="#1F2937"
+                            android:textSize="16sp"
+                            android:inputType="phone"
+                            android:importantForAutofill="no" />
+                            
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="8dp"
+                            android:background="#E5E7EB" />
                     </LinearLayout>
 
                 </LinearLayout>

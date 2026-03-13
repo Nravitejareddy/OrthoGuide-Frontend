@@ -3,7 +3,6 @@ package com.yourname.orthoguide
 import android.graphics.Color
 import android.os.Bundle
 import android.view.View
-
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
@@ -65,5 +64,4 @@ class CreatePatientActivity : AppCompatActivity() {
             finish()
         }
     }
-
-    }
+}

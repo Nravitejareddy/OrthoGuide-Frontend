@@ -60,9 +60,6 @@ class ProfileActivity : AppCompatActivity() {
             editProfileLauncher.launch(intent)
         }
 
-        findViewById<View>(R.id.ll_notification_prefs)?.setOnClickListener {
-            startActivity(Intent(this, NotificationPreferencesActivity::class.java))
-        }
 
         findViewById<View>(R.id.ll_help_support)?.setOnClickListener {
             startActivity(Intent(this, HelpSupportActivity::class.java))

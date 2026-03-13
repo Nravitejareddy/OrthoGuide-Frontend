@@ -113,141 +113,142 @@
                     android:paddingHorizontal="20dp">
 
                     <!-- Full Name -->
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Full Name"
-                        android:textColor="#64748B"
-                        android:textSize="14sp"
-                        android:layout_marginBottom="8dp" />
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/bg_edittext_rounded"
-                        android:gravity="center_vertical"
-                        android:paddingHorizontal="12dp">
-                        <ImageView
-                            android:layout_width="20dp"
-                            android:layout_height="20dp"
-                            android:src="@drawable/ic_profile_nav"
-                            android:tint="#94A3B8" />
+                        android:orientation="vertical">
+                        
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Full Name"
+                            android:textColor="#6B7280"
+                            android:textSize="13sp" />
+                            
                         <EditText
                             android:id="@+id/et_name"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
                             android:background="@null"
-                            android:paddingVertical="14dp"
-                            android:paddingStart="12dp"
                             android:text="Dr. Sarah Miller"
-                            android:textColor="#0F172A"
+                            android:textColor="#1F2937"
                             android:textSize="16sp"
-                            android:inputType="textPersonName" />
+                            android:inputType="textPersonName"
+                            android:importantForAutofill="no" />
+                            
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="8dp"
+                            android:background="#E5E7EB" />
                     </LinearLayout>
 
                     <!-- Role -->
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Role"
-                        android:textColor="#64748B"
-                        android:textSize="14sp"
-                        android:layout_marginTop="20dp"
-                        android:layout_marginBottom="8dp" />
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/bg_edittext_rounded"
-                        android:gravity="center_vertical"
-                        android:paddingHorizontal="12dp">
-                        <ImageView
-                            android:layout_width="20dp"
-                            android:layout_height="20dp"
-                            android:src="@drawable/ic_stethoscope"
-                            android:tint="#94A3B8" />
+                        android:layout_marginTop="24dp"
+                        android:orientation="vertical">
+                        
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Role"
+                            android:textColor="#6B7280"
+                            android:textSize="13sp" />
+                            
                         <EditText
                             android:id="@+id/et_role"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
                             android:background="@null"
-                            android:paddingVertical="14dp"
-                            android:paddingStart="12dp"
                             android:text="Orthodontist"
-                            android:textColor="#0F172A"
+                            android:textColor="#1F2937"
                             android:textSize="16sp"
-                            android:inputType="textPersonName" />
+                            android:inputType="textPersonName"
+                            android:importantForAutofill="no" />
+                            
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="8dp"
+                            android:background="#E5E7EB" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Role change updates profile label only"
+                            android:textColor="#94A3B8"
+                            android:textSize="12sp"
+                            android:layout_marginTop="6dp" />
                     </LinearLayout>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Role change updates profile label only"
-                        android:textColor="#94A3B8"
-                        android:textSize="12sp"
-                        android:layout_marginTop="6dp" />
 
                     <!-- Email Address -->
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Email Address"
-                        android:textColor="#64748B"
-                        android:textSize="14sp"
-                        android:layout_marginTop="20dp"
-                        android:layout_marginBottom="8dp" />
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/bg_edittext_rounded"
-                        android:gravity="center_vertical"
-                        android:paddingHorizontal="12dp">
-                        <ImageView
-                            android:layout_width="20dp"
-                            android:layout_height="20dp"
-                            android:src="@drawable/ic_mail_outline"
-                            android:tint="#94A3B8" />
+                        android:layout_marginTop="24dp"
+                        android:orientation="vertical">
+                        
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Email Address"
+                            android:textColor="#6B7280"
+                            android:textSize="13sp" />
+                            
                         <EditText
                             android:id="@+id/et_email"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
                             android:background="@null"
-                            android:paddingVertical="14dp"
-                            android:paddingStart="12dp"
                             android:text="sarah.miller@orthoguide.com"
-                            android:textColor="#0F172A"
+                            android:textColor="#1F2937"
                             android:textSize="16sp"
-                            android:inputType="textEmailAddress" />
+                            android:inputType="textEmailAddress"
+                            android:importantForAutofill="no" />
+                            
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="8dp"
+                            android:background="#E5E7EB" />
                     </LinearLayout>
 
                     <!-- Phone Number -->
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Phone Number"
-                        android:textColor="#64748B"
-                        android:textSize="14sp"
-                        android:layout_marginTop="20dp"
-                        android:layout_marginBottom="8dp" />
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/bg_edittext_rounded"
-                        android:gravity="center_vertical"
-                        android:paddingHorizontal="12dp">
-                        <ImageView
-                            android:layout_width="20dp"
-                            android:layout_height="20dp"
-                            android:src="@drawable/ic_phone"
-                            android:tint="#94A3B8" />
+                        android:layout_marginTop="24dp"
+                        android:orientation="vertical">
+                        
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Phone Number"
+                            android:textColor="#6B7280"
+                            android:textSize="13sp" />
+                            
                         <EditText
                             android:id="@+id/et_phone"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
                             android:background="@null"
-                            android:paddingVertical="14dp"
-                            android:paddingStart="12dp"
                             android:text="+91 98765 43210"
-                            android:textColor="#0F172A"
+                            android:textColor="#1F2937"
                             android:textSize="16sp"
-                            android:inputType="phone" />
+                            android:inputType="phone"
+                            android:importantForAutofill="no" />
+                            
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="8dp"
+                            android:background="#E5E7EB" />
                     </LinearLayout>
 
                 </LinearLayout>
