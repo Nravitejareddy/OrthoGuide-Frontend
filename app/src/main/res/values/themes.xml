@@ -10,6 +10,12 @@
 
     <style name="Theme.OrthoGuide" parent="Base.Theme.OrthoGuide" />
 
+    <!-- Prevents black flash when DashboardActivity's window is first drawn -->
+    <style name="Theme.OrthoGuide.Dashboard" parent="Theme.OrthoGuide">
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+
     <!-- Dropdown / Popup Theme -->
     <style name="WhitePopupMenuTheme" parent="Theme.Material3.Light">
         <item name="android:colorBackground">@color/white</item>

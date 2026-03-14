@@ -46,9 +46,13 @@ class ClinicianLoginActivity : AppCompatActivity() {
             if (providerId == "admin" && password == "admin@123") {
                 val intent = Intent(this, AdminDashboardActivity::class.java)
                 startActivity(intent)
+                @Suppress("DEPRECATION")
+                overridePendingTransition(0, 0)
             } else {
                 val intent = Intent(this, ClinicianDashboardActivity::class.java)
                 startActivity(intent)
+                @Suppress("DEPRECATION")
+                overridePendingTransition(0, 0)
             }
         }
     }

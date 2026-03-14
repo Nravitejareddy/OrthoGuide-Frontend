@@ -17,6 +17,9 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
 
 class DashboardActivity : AppCompatActivity() {
+    private var pbOverallProgress: ProgressBar? = null
+    private var tvOverallProgressPct: TextView? = null
+    private val progressGoal = 33
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -41,29 +44,9 @@ class DashboardActivity : AppCompatActivity() {
             insets
         }
         
-        val progressGoal = 33
-        
-        val pbOverallProgress = findViewById<ProgressBar>(R.id.pb_overall_progress)
-        val tvOverallProgressPct = findViewById<TextView>(R.id.tv_overall_progress_pct)
-        
-        if (pbOverallProgress != null && tvOverallProgressPct != null) {
-            pbOverallProgress.progress = 0
-            val progressBarAnimator = ObjectAnimator.ofInt(pbOverallProgress, "progress", 0, progressGoal)
-            progressBarAnimator.duration = 1000
-            progressBarAnimator.interpolator = DecelerateInterpolator()
-            // Add slight delay to ensure activity transition is mostly complete
-            progressBarAnimator.startDelay = 300
-            progressBarAnimator.start()
-
-            val textAnimator = ValueAnimator.ofInt(0, progressGoal)
-            textAnimator.duration = 1000
-            textAnimator.interpolator = DecelerateInterpolator()
-            textAnimator.startDelay = 300
-            textAnimator.addUpdateListener { animation ->
-                tvOverallProgressPct.text = "${animation.animatedValue}%"
-            }
-            textAnimator.start()
-        }
+        // Initialize views
+        pbOverallProgress = findViewById(R.id.pb_overall_progress)
+        tvOverallProgressPct = findViewById(R.id.tv_overall_progress_pct)
 
         findViewById<View>(R.id.iv_notification_bell)?.setOnClickListener {
             startActivity(Intent(this, NotificationsActivity::class.java))
@@ -122,6 +105,32 @@ class DashboardActivity : AppCompatActivity() {
         }
     }
 
+
+    override fun onResume() {
+        super.onResume()
+        animateProgress()
+    }
+
+    private fun animateProgress() {
+        if (pbOverallProgress != null && tvOverallProgressPct != null) {
+            pbOverallProgress?.progress = 0
+            val progressBarAnimator = ObjectAnimator.ofInt(pbOverallProgress, "progress", 0, progressGoal)
+            progressBarAnimator.duration = 1000
+            progressBarAnimator.interpolator = DecelerateInterpolator()
+            // Add slight delay to ensure activity transition is mostly complete
+            progressBarAnimator.startDelay = 300
+            progressBarAnimator.start()
+
+            val textAnimator = ValueAnimator.ofInt(0, progressGoal)
+            textAnimator.duration = 1000
+            textAnimator.interpolator = DecelerateInterpolator()
+            textAnimator.startDelay = 300
+            textAnimator.addUpdateListener { animation ->
+                tvOverallProgressPct?.text = "${animation.animatedValue}%"
+            }
+            textAnimator.start()
+        }
+    }
 
     private fun dpToPx(dp: Int): Int {
         return (dp * resources.displayMetrics.density).toInt()

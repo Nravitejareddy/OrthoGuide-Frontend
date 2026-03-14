@@ -42,6 +42,8 @@ class PatientLoginActivity : AppCompatActivity() {
         findViewById<View>(R.id.btn_login_secure)?.setOnClickListener {
             val intent = android.content.Intent(this, ConsentActivity::class.java)
             startActivity(intent)
+            @Suppress("DEPRECATION")
+            overridePendingTransition(0, 0)
         }
 
         findViewById<View>(R.id.tv_forgot_password_link)?.setOnClickListener {

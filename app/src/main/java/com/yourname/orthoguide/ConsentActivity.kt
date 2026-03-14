@@ -73,6 +73,8 @@ class ConsentActivity : AppCompatActivity() {
         btnContinue.setOnClickListener {
             val intent = android.content.Intent(this, AiCapabilitiesActivity::class.java)
             startActivity(intent)
+            @Suppress("DEPRECATION")
+            overridePendingTransition(0, 0)
         }
     }
 

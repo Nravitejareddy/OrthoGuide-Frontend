@@ -14,6 +14,9 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 class ProgressActivity : AppCompatActivity() {
+    private var pbOverallProgress: ProgressBar? = null
+    private var tvOverallProgressPct: TextView? = null
+    private val progressGoal = 33
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -26,26 +29,11 @@ class ProgressActivity : AppCompatActivity() {
             onBackPressedDispatcher.onBackPressed()
         }
 
-        val progressGoal = 33
-        
-        val pbOverallProgress = findViewById<ProgressBar>(R.id.pb_overall_progress_circle)
-        val tvOverallProgressPct = findViewById<TextView>(R.id.tv_overall_progress_pct_circle)
-        
-        if (pbOverallProgress != null && tvOverallProgressPct != null) {
-            pbOverallProgress.progress = 0
-            val progressBarAnimator = ObjectAnimator.ofInt(pbOverallProgress, "progress", 0, progressGoal)
-            progressBarAnimator.duration = 1000
-            progressBarAnimator.interpolator = DecelerateInterpolator()
-            progressBarAnimator.start()
+        // Initialize views
+        pbOverallProgress = findViewById(R.id.pb_overall_progress_circle)
+        tvOverallProgressPct = findViewById(R.id.tv_overall_progress_pct_circle)
 
-            val textAnimator = ValueAnimator.ofInt(0, progressGoal)
-            textAnimator.duration = 1000
-            textAnimator.interpolator = DecelerateInterpolator()
-            textAnimator.addUpdateListener { animation ->
-                tvOverallProgressPct.text = "${animation.animatedValue}%"
-            }
-            textAnimator.start()
-        }
+        // Bottom Navigation
 
         // Bottom Navigation
         findViewById<View>(R.id.tab_home)?.setOnClickListener {
@@ -78,6 +66,29 @@ class ProgressActivity : AppCompatActivity() {
             })
             @Suppress("DEPRECATION")
             overridePendingTransition(0, 0)
+        }
+    }
+
+    override fun onResume() {
+        super.onResume()
+        animateProgress()
+    }
+
+    private fun animateProgress() {
+        if (pbOverallProgress != null && tvOverallProgressPct != null) {
+            pbOverallProgress?.progress = 0
+            val progressBarAnimator = ObjectAnimator.ofInt(pbOverallProgress, "progress", 0, progressGoal)
+            progressBarAnimator.duration = 1000
+            progressBarAnimator.interpolator = DecelerateInterpolator()
+            progressBarAnimator.start()
+
+            val textAnimator = ValueAnimator.ofInt(0, progressGoal)
+            textAnimator.duration = 1000
+            textAnimator.interpolator = DecelerateInterpolator()
+            textAnimator.addUpdateListener { animation ->
+                tvOverallProgressPct?.text = "${animation.animatedValue}%"
+            }
+            textAnimator.start()
         }
     }
 }

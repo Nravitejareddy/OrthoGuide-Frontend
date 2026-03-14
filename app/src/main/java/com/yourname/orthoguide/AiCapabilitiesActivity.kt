@@ -38,6 +38,8 @@ class AiCapabilitiesActivity : AppCompatActivity() {
         findViewById<MaterialButton>(R.id.btn_understand)?.setOnClickListener {
             val intent = android.content.Intent(this, LoginSuccessActivity::class.java)
             startActivity(intent)
+            @Suppress("DEPRECATION")
+            overridePendingTransition(0, 0)
         }
     }
 }

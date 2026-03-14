@@ -10,7 +10,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
-import com.google.android.material.button.MaterialButton
 
 class LoginSuccessActivity : AppCompatActivity() {
 
@@ -21,8 +20,7 @@ class LoginSuccessActivity : AppCompatActivity() {
 
         @Suppress("DEPRECATION")
         window.statusBarColor = Color.TRANSPARENT
-        // Changed to false (dark/white icons) to match Dashboard's status bar before transition
-        WindowInsetsControllerCompat(window, window.decorView).isAppearanceLightStatusBars = false
+        WindowInsetsControllerCompat(window, window.decorView).isAppearanceLightStatusBars = true
 
         val rootView = findViewById<View>(R.id.login_success_root)
         if (rootView != null) {
@@ -33,18 +31,19 @@ class LoginSuccessActivity : AppCompatActivity() {
             }
         }
 
+        // Show sync spinning animation while the brief success screen is visible
         val syncIcon = findViewById<ImageView>(R.id.iv_sync_icon)
         val rotation = AnimationUtils.loadAnimation(this, R.anim.rotate_clockwise)
         syncIcon?.startAnimation(rotation)
 
-        // Automatic redirect after 2 seconds
+        // Navigate to Dashboard after 700ms — fast enough to feel instant, long enough to be seen
         rootView?.postDelayed({
             val intent = android.content.Intent(this, DashboardActivity::class.java)
             intent.flags = android.content.Intent.FLAG_ACTIVITY_NEW_TASK or android.content.Intent.FLAG_ACTIVITY_CLEAR_TASK
             startActivity(intent)
             @Suppress("DEPRECATION")
-            overridePendingTransition(R.anim.fade_in, R.anim.fade_out)
+            overridePendingTransition(0, 0)
             finish()
-        }, 2000)
+        }, 700)
     }
 }
