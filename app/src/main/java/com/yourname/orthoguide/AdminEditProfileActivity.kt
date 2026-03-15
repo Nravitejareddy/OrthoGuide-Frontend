@@ -28,6 +28,32 @@ class AdminEditProfileActivity : AppCompatActivity() {
             insets
         }
 
+        val etName = findViewById<android.widget.EditText>(R.id.et_admin_name)
+        val tvInitials = findViewById<android.widget.TextView>(R.id.tv_initials)
+
+        fun updateInitials(name: String) {
+            val initials = name.split(" ")
+                .filter { it.isNotEmpty() }
+                .map { it[0].uppercaseChar() }
+                .take(2)
+                .joinToString("")
+            tvInitials.text = if (initials.isNotEmpty()) initials else "--"
+        }
+
+        // Initialize name and initials
+        val prefs = getSharedPreferences("OrthoGuidePrefs", MODE_PRIVATE)
+        val currentName = prefs.getString("admin_name", "System Admin")
+        etName.setText(currentName)
+        updateInitials(currentName ?: "")
+
+        etName.addTextChangedListener(object : android.text.TextWatcher {
+            override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {}
+            override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
+                updateInitials(s.toString())
+            }
+            override fun afterTextChanged(s: android.text.Editable?) {}
+        })
+
         findViewById<View>(R.id.iv_back).setOnClickListener {
             onBackPressedDispatcher.onBackPressed()
         }
@@ -37,6 +63,11 @@ class AdminEditProfileActivity : AppCompatActivity() {
         }
 
         findViewById<View>(R.id.btn_save).setOnClickListener {
+            val name = etName.text.toString()
+            if (name.isNotEmpty()) {
+                val prefs = getSharedPreferences("OrthoGuidePrefs", MODE_PRIVATE)
+                prefs.edit().putString("admin_name", name).apply()
+            }
             Toast.makeText(this, "Profile changes saved successfully", Toast.LENGTH_SHORT).show()
             finish()
         }

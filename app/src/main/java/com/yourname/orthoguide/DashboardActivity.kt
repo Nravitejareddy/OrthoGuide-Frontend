@@ -109,6 +109,11 @@ class DashboardActivity : AppCompatActivity() {
     override fun onResume() {
         super.onResume()
         animateProgress()
+        
+        // Show notification dot if there are "new" notifications
+        val prefs = getSharedPreferences("OrthoGuidePrefs", MODE_PRIVATE)
+        val notifSeen = prefs.getBoolean("notif_seen", false)
+        findViewById<View>(R.id.v_notification_dot)?.visibility = if (notifSeen) View.GONE else View.VISIBLE
     }
 
     private fun animateProgress() {

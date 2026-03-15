@@ -28,5 +28,9 @@ class NotificationsActivity : AppCompatActivity() {
         findViewById<View>(R.id.iv_back)?.setOnClickListener {
             finish()
         }
+
+        // Mark notifications as seen
+        val prefs = getSharedPreferences("OrthoGuidePrefs", MODE_PRIVATE)
+        prefs.edit().putBoolean("notif_seen", true).apply()
     }
 }

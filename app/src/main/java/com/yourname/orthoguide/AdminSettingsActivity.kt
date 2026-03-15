@@ -86,4 +86,14 @@ class AdminSettingsActivity : AppCompatActivity() {
             overridePendingTransition(0, 0)
         }
     }
+    override fun onResume() {
+        super.onResume()
+        updateAdminName()
+    }
+
+    private fun updateAdminName() {
+        val prefs = getSharedPreferences("OrthoGuidePrefs", MODE_PRIVATE)
+        val adminName = prefs.getString("admin_name", "System Admin")
+        findViewById<android.widget.TextView>(R.id.tv_admin_name_settings)?.text = adminName
+    }
 }

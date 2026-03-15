@@ -35,7 +35,7 @@
                 android:padding="8dp"
                 android:src="@drawable/ic_chevron_right"
                 android:rotation="180"
-                android:tint="@color/text_title"
+                android:tint="#111827"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent" />
@@ -48,38 +48,38 @@
                 app:layout_constraintStart_toEndOf="@id/iv_back"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@id/fl_add_user">
+                app:layout_constraintEnd_toStartOf="@id/btn_add_patient">
 
                 <TextView
+                    android:id="@+id/tv_title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Patients"
-                    android:textColor="@color/text_title"
-                    android:textSize="18sp"
+                    android:textColor="#111827"
+                    android:textSize="20sp"
                     android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="5 Active Patients"
-                    android:textColor="@color/text_muted"
-                    android:textSize="12sp" />
             </LinearLayout>
 
-            <FrameLayout
-                android:id="@+id/fl_add_user"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:background="@drawable/bg_circle_blue_solid"
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_add_patient"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="New"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:fontFamily="sans-serif-medium"
+                app:icon="@drawable/ic_plus_purple"
+                app:iconTint="@color/white"
+                app:iconSize="18dp"
+                app:iconPadding="4dp"
+                app:backgroundTint="#2563EB"
+                app:cornerRadius="8dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintBottom_toBottomOf="parent">
-                <ImageView
-                    android:layout_width="24dp"
-                    android:layout_height="24dp"
-                    android:layout_gravity="center"
-                    android:src="@drawable/ic_user_add_white" />
-            </FrameLayout>
+                app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </com.google.android.material.card.MaterialCardView>
 
@@ -113,6 +113,7 @@
                     android:src="@drawable/ic_search_grey" />
 
                 <EditText
+                    android:id="@+id/et_search_patients"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginStart="12dp"
@@ -120,7 +121,9 @@
                     android:hint="Search by name or ID..."
                     android:textColor="#111827"
                     android:textColorHint="#9CA3AF"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"
+                    android:importantForAutofill="no"
+                    android:inputType="text" />
             </LinearLayout>
 
             <!-- Filters -->
@@ -237,9 +240,10 @@
                             app:layout_constraintTop_toTopOf="@id/fl_avatar_1" />
 
                         <TextView
+                            android:id="@+id/tv_status_1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginStart="216dp"
+                            android:layout_marginEnd="8dp"
                             android:background="@drawable/bg_tag_attention_yellow"
                             android:paddingHorizontal="8dp"
                             android:paddingVertical="4dp"
@@ -248,10 +252,11 @@
                             android:textSize="11sp"
                             android:textStyle="bold"
                             app:layout_constraintBottom_toBottomOf="@id/tv_name_1"
-                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintEnd_toStartOf="@id/iv_arrow_1"
                             app:layout_constraintTop_toTopOf="@id/tv_name_1" />
 
                         <ImageView
+                            android:id="@+id/iv_arrow_1"
                             android:layout_width="20dp"
                             android:layout_height="20dp"
                             android:src="@drawable/ic_chevron_right"
@@ -361,9 +366,10 @@
                             app:layout_constraintTop_toTopOf="@id/fl_avatar_2" />
 
                         <TextView
+                            android:id="@+id/tv_status_2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginStart="216dp"
+                            android:layout_marginEnd="8dp"
                             android:background="@drawable/bg_tag_red"
                             android:paddingHorizontal="8dp"
                             android:paddingVertical="4dp"
@@ -372,10 +378,11 @@
                             android:textSize="11sp"
                             android:textStyle="bold"
                             app:layout_constraintBottom_toBottomOf="@id/tv_name_2"
-                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintEnd_toStartOf="@id/iv_arrow_2"
                             app:layout_constraintTop_toTopOf="@id/tv_name_2" />
 
                         <ImageView
+                            android:id="@+id/iv_arrow_2"
                             android:layout_width="20dp"
                             android:layout_height="20dp"
                             android:src="@drawable/ic_chevron_right"
@@ -485,9 +492,10 @@
                             app:layout_constraintTop_toTopOf="@id/fl_avatar_3" />
 
                         <TextView
+                            android:id="@+id/tv_status_3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginStart="216dp"
+                            android:layout_marginEnd="8dp"
                             android:background="@drawable/bg_tag_green"
                             android:paddingHorizontal="8dp"
                             android:paddingVertical="4dp"
@@ -496,10 +504,11 @@
                             android:textSize="11sp"
                             android:textStyle="bold"
                             app:layout_constraintBottom_toBottomOf="@id/tv_name_3"
-                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintEnd_toStartOf="@id/iv_arrow_3"
                             app:layout_constraintTop_toTopOf="@id/tv_name_3" />
 
                         <ImageView
+                            android:id="@+id/iv_arrow_3"
                             android:layout_width="20dp"
                             android:layout_height="20dp"
                             android:src="@drawable/ic_chevron_right"
@@ -609,9 +618,10 @@
                             app:layout_constraintTop_toTopOf="@id/fl_avatar_4" />
 
                         <TextView
+                            android:id="@+id/tv_status_4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginStart="216dp"
+                            android:layout_marginEnd="8dp"
                             android:background="@drawable/bg_tag_green"
                             android:paddingHorizontal="8dp"
                             android:paddingVertical="4dp"
@@ -620,10 +630,11 @@
                             android:textSize="11sp"
                             android:textStyle="bold"
                             app:layout_constraintBottom_toBottomOf="@id/tv_name_4"
-                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintEnd_toStartOf="@id/iv_arrow_4"
                             app:layout_constraintTop_toTopOf="@id/tv_name_4" />
 
                         <ImageView
+                            android:id="@+id/iv_arrow_4"
                             android:layout_width="20dp"
                             android:layout_height="20dp"
                             android:src="@drawable/ic_chevron_right"
@@ -733,9 +744,10 @@
                             app:layout_constraintTop_toTopOf="@id/fl_avatar_5" />
 
                         <TextView
+                            android:id="@+id/tv_status_5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginStart="216dp"
+                            android:layout_marginEnd="8dp"
                             android:background="@drawable/bg_tag_green"
                             android:paddingHorizontal="8dp"
                             android:paddingVertical="4dp"
@@ -744,10 +756,11 @@
                             android:textSize="11sp"
                             android:textStyle="bold"
                             app:layout_constraintBottom_toBottomOf="@id/tv_name_5"
-                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintEnd_toStartOf="@id/iv_arrow_5"
                             app:layout_constraintTop_toTopOf="@id/tv_name_5" />
 
                         <ImageView
+                            android:id="@+id/iv_arrow_5"
                             android:layout_width="20dp"
                             android:layout_height="20dp"
                             android:src="@drawable/ic_chevron_right"

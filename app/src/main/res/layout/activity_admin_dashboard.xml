@@ -12,7 +12,7 @@
     <View
         android:id="@+id/v_admin_header_bg"
         android:layout_width="match_parent"
-        android:layout_height="240dp"
+        android:layout_height="280dp"
         android:background="@drawable/bg_admin_header_purple"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -41,40 +41,51 @@
                 android:paddingBottom="24dp">
 
                 <TextView
-                    android:id="@+id/tv_admin_portal_label"
+                    android:id="@+id/tv_today_date"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Admin Portal"
+                    android:text="Sunday, Mar 15"
                     android:textColor="#BCFFFFFF"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
-                    android:id="@+id/tv_admin_dashboard_title"
+                    android:id="@+id/tv_greeting"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="6dp"
-                    android:text="Admin Dashboard"
-                    android:textColor="@color/white"
-                    android:textSize="28sp"
-                    android:textStyle="bold"
+                    android:layout_marginTop="24dp"
+                    android:text="Good Morning,"
+                    android:textColor="#E0E7FF"
+                    android:textSize="18sp"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/tv_admin_portal_label" />
+                    app:layout_constraintTop_toBottomOf="@id/tv_today_date" />
 
                 <TextView
-                    android:id="@+id/tv_system_admin_tag"
+                    android:id="@+id/tv_admin_name_display"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="14dp"
+                    android:layout_marginTop="4dp"
+                    android:text="System Administrator"
+                    android:textColor="@color/white"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_greeting" />
+
+                <TextView
+                    android:id="@+id/tv_role_badge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
                     android:background="@drawable/bg_tag_glass"
                     android:paddingHorizontal="12dp"
                     android:paddingVertical="6dp"
-                    android:text="System Administrator"
+                    android:text="Administrator"
                     android:textColor="@color/white"
                     android:textSize="13sp"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/tv_admin_dashboard_title" />
+                    app:layout_constraintTop_toBottomOf="@id/tv_admin_name_display" />
 
                 <FrameLayout
                     android:layout_width="54dp"
@@ -82,7 +93,7 @@
                     android:background="@drawable/bg_squircle_glass"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintBottom_toBottomOf="@id/tv_system_admin_tag">
+                    app:layout_constraintBottom_toBottomOf="@id/tv_role_badge">
                     <ImageView
                         android:layout_width="26dp"
                         android:layout_height="26dp"

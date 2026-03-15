@@ -290,7 +290,7 @@
                 android:textAllCaps="false"
                 android:textColor="@color/white"
                 android:textSize="16sp"
-                app:backgroundTint="#C084FC"
+                app:backgroundTint="#7C3AED"
                 app:cornerRadius="12dp" />
 
         </LinearLayout>

@@ -5,7 +5,7 @@
     android:id="@+id/create_patient_root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F8FAFC"
+    android:background="#FAFBFE"
     tools:context=".CreatePatientActivity">
 
     <!-- Header Section -->
@@ -24,7 +24,7 @@
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:src="@drawable/ic_chevron_left"
-            app:tint="#1E293B"
+            android:tint="#1E293B"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -38,7 +38,6 @@
             android:textColor="#0F172A"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:fontFamily="sans-serif-medium"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@id/iv_back"
             app:layout_constraintTop_toTopOf="parent" />
@@ -79,158 +78,203 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:paddingTop="24dp"
+                    android:paddingTop="32dp"
                     android:paddingBottom="16dp"
                     android:paddingHorizontal="20dp">
 
-                    <!-- ID Input -->
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical">
-                        
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="PATIENT ID"
-                            android:textColor="#6B7280"
-                            android:textSize="13sp" />
-                            
-                        <EditText
-                            android:id="@+id/et_patient_id"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="8dp"
-                            android:background="@null"
-                            android:hint="PT005"
-                            android:textColorHint="#94A3B8"
-                            android:textColor="#1F2937"
-                            android:textSize="16sp"
-                            android:importantForAutofill="no" />
-                            
-                        <View
-                            android:layout_width="match_parent"
-                            android:layout_height="1dp"
-                            android:layout_marginTop="8dp"
-                            android:background="#E5E7EB" />
-                    </LinearLayout>
-
-                    <!-- Name Input -->
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="24dp"
-                        android:orientation="vertical">
-                        
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="PATIENT NAME"
-                            android:textColor="#6B7280"
-                            android:textSize="13sp" />
-                            
-                        <EditText
-                            android:id="@+id/et_patient_name"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="8dp"
-                            android:background="@null"
-                            android:hint="John Doe"
-                            android:textColorHint="#94A3B8"
-                            android:textColor="#1F2937"
-                            android:textSize="16sp"
-                            android:inputType="textPersonName"
-                            android:importantForAutofill="no" />
-                            
-                        <View
-                            android:layout_width="match_parent"
-                            android:layout_height="1dp"
-                            android:layout_marginTop="8dp"
-                            android:background="#E5E7EB" />
-                    </LinearLayout>
-
-                    <!-- Email Input -->
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="24dp"
-                        android:orientation="vertical">
-                        
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="EMAIL (OPTIONAL)"
-                            android:textColor="#6B7280"
-                            android:textSize="13sp" />
-                            
-                        <EditText
-                            android:id="@+id/et_patient_email"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="8dp"
-                            android:background="@null"
-                            android:hint="john@example.com"
-                            android:textColorHint="#94A3B8"
-                            android:textColor="#1F2937"
-                            android:textSize="16sp"
-                            android:inputType="textEmailAddress"
-                            android:importantForAutofill="no" />
-                            
-                        <View
-                            android:layout_width="match_parent"
-                            android:layout_height="1dp"
-                            android:layout_marginTop="8dp"
-                            android:background="#E5E7EB" />
-                    </LinearLayout>
-
-                    <!-- Phone Input -->
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="24dp"
-                        android:orientation="vertical">
-                        
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="PHONE NUMBER"
-                            android:textColor="#6B7280"
-                            android:textSize="13sp" />
-                            
-                        <EditText
-                            android:id="@+id/et_phone"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="8dp"
-                            android:background="@null"
-                            android:hint="+91 98765 43210"
-                            android:textColorHint="#94A3B8"
-                            android:textColor="#1F2937"
-                            android:textSize="16sp"
-                            android:inputType="phone"
-                            android:importantForAutofill="no" />
-                            
-                        <View
-                            android:layout_width="match_parent"
-                            android:layout_height="1dp"
-                            android:layout_marginTop="8dp"
-                            android:background="#E5E7EB" />
-                    </LinearLayout>
-
+                    <!-- Patient ID -->
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="8dp"
-                        android:text="Used as the initial password"
-                        android:textColor="#94A3B8"
-                        android:textSize="13sp"
+                        android:text="PATIENT ID"
+                        android:textColor="#64748B"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
                         android:layout_marginBottom="8dp"/>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/til_patient_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        app:boxBackgroundColor="@color/white"
+                        app:boxCornerRadiusTopStart="12dp"
+                        app:boxCornerRadiusTopEnd="12dp"
+                        app:boxCornerRadiusBottomStart="12dp"
+                        app:boxCornerRadiusBottomEnd="12dp"
+                        app:boxStrokeColor="#E2E8F0"
+                        app:boxStrokeWidth="1dp"
+                        app:hintEnabled="false"
+                        app:startIconDrawable="@drawable/ic_hashtag"
+                        app:startIconTint="#94A3B8">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/et_patient_id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="e.g. 100982100"
+                            android:textColorHint="#94A3B8"
+                            android:textColor="#334155"
+                            android:paddingVertical="16dp"
+                            android:textSize="16sp" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <!-- Name Input -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="FULL NAME"
+                        android:textColor="#64748B"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="8dp"/>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        app:boxBackgroundColor="@color/white"
+                        app:boxCornerRadiusTopStart="12dp"
+                        app:boxCornerRadiusTopEnd="12dp"
+                        app:boxCornerRadiusBottomStart="12dp"
+                        app:boxCornerRadiusBottomEnd="12dp"
+                        app:boxStrokeColor="#E2E8F0"
+                        app:boxStrokeWidth="1dp"
+                        app:hintEnabled="false"
+                        app:startIconDrawable="@drawable/ic_user_silhouette"
+                        app:startIconTint="#94A3B8">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/et_patient_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Sarah Anderson"
+                            android:textColorHint="#94A3B8"
+                            android:textColor="#334155"
+                            android:paddingVertical="16dp"
+                            android:textSize="16sp" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <!-- Email Input -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="EMAIL ADDRESS"
+                        android:textColor="#64748B"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="8dp"/>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        app:boxBackgroundColor="@color/white"
+                        app:boxCornerRadiusTopStart="12dp"
+                        app:boxCornerRadiusTopEnd="12dp"
+                        app:boxCornerRadiusBottomStart="12dp"
+                        app:boxCornerRadiusBottomEnd="12dp"
+                        app:boxStrokeColor="#E2E8F0"
+                        app:boxStrokeWidth="1dp"
+                        app:hintEnabled="false"
+                        app:startIconDrawable="@drawable/ic_mail_outline"
+                        app:startIconTint="#94A3B8">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/et_patient_email"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="sarah.anderson@example.com"
+                            android:textColorHint="#94A3B8"
+                            android:textColor="#334155"
+                            android:paddingVertical="16dp"
+                            android:textSize="16sp"
+                            android:inputType="textEmailAddress" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <!-- Phone Input -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PHONE NUMBER"
+                        android:textColor="#64748B"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="8dp"/>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        app:boxBackgroundColor="@color/white"
+                        app:boxCornerRadiusTopStart="12dp"
+                        app:boxCornerRadiusTopEnd="12dp"
+                        app:boxCornerRadiusBottomStart="12dp"
+                        app:boxCornerRadiusBottomEnd="12dp"
+                        app:boxStrokeColor="#E2E8F0"
+                        app:boxStrokeWidth="1dp"
+                        app:hintEnabled="false"
+                        app:startIconDrawable="@drawable/ic_phone"
+                        app:startIconTint="#94A3B8">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/et_phone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="+91 98765 43210"
+                            android:textColorHint="#94A3B8"
+                            android:textColor="#334155"
+                            android:paddingVertical="16dp"
+                            android:textSize="16sp"
+                            android:inputType="phone" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <!-- Treatment Stage -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="INITIAL TREATMENT STAGE"
+                        android:textColor="#64748B"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="8dp"/>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        app:boxBackgroundColor="@color/white"
+                        app:boxCornerRadiusTopStart="12dp"
+                        app:boxCornerRadiusTopEnd="12dp"
+                        app:boxCornerRadiusBottomStart="12dp"
+                        app:boxCornerRadiusBottomEnd="12dp"
+                        app:boxStrokeColor="#E2E8F0"
+                        app:boxStrokeWidth="1dp"
+                        app:hintEnabled="false"
+                        app:startIconDrawable="@drawable/ic_document_text"
+                        app:startIconTint="#94A3B8">
+
+                        <AutoCompleteTextView
+                            android:id="@+id/actv_treatment_stage"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Initial Consultation"
+                            android:textColorHint="#94A3B8"
+                            android:textColor="#334155"
+                            android:paddingVertical="16dp"
+                            android:textSize="16sp"
+                            android:inputType="none"
+                            android:popupBackground="@color/white"
+                            android:dropDownSelector="@android:color/transparent" />
+                    </com.google.android.material.textfield.TextInputLayout>
 
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
-            <!-- Info Banner -->
+            <!-- Info Box -->
             <com.google.android.material.card.MaterialCardView
+                android:id="@+id/mcv_info_banner"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
@@ -248,17 +292,19 @@
                     android:gravity="center_vertical">
                     
                     <ImageView
+                        android:id="@+id/iv_info_icon"
                         android:layout_width="20dp"
                         android:layout_height="20dp"
                         android:src="@drawable/ic_warning_purple"
-                        app:tint="#A855F7" />
+                        android:tint="#A855F7" />
                         
                     <TextView
+                        android:id="@+id/tv_info_text"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:layout_marginStart="12dp"
-                        android:text="Additional profile details can be provided later by the patient."
+                        android:text="The patient's mobile number will be used as their initial password. They will be prompted to change it upon first login."
                         android:textColor="#9333EA"
                         android:textSize="14sp"
                         android:lineSpacingExtra="2dp"/>
@@ -275,7 +321,7 @@
                 android:textAllCaps="false"
                 android:textColor="@color/white"
                 android:textSize="16sp"
-                app:backgroundTint="#C084FC"
+                app:backgroundTint="#7C3AED"
                 app:cornerRadius="12dp" />
 
         </LinearLayout>

@@ -323,9 +323,10 @@
                                 app:layout_constraintTop_toTopOf="parent" />
 
                             <TextView
+                                android:id="@+id/tv_status_1"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginStart="216dp"
+                                android:layout_marginEnd="8dp"
                                 android:background="@drawable/bg_tag_red"
                                 android:paddingHorizontal="8dp"
                                 android:paddingVertical="4dp"
@@ -334,10 +335,11 @@
                                 android:textSize="11sp"
                                 android:textStyle="bold"
                                 app:layout_constraintBottom_toBottomOf="@id/tv_name_1"
-                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintEnd_toStartOf="@id/iv_arrow_1"
                                 app:layout_constraintTop_toTopOf="@id/tv_name_1" />
 
                             <ImageView
+                                android:id="@+id/iv_arrow_1"
                                 android:layout_width="16dp"
                                 android:layout_height="16dp"
                                 android:src="@drawable/ic_chevron_right"
@@ -440,9 +442,10 @@
                                 app:layout_constraintTop_toTopOf="parent" />
 
                             <TextView
+                                android:id="@+id/tv_status_2"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginStart="216dp"
+                                android:layout_marginEnd="8dp"
                                 android:background="@drawable/bg_tag_attention_yellow"
                                 android:paddingHorizontal="8dp"
                                 android:paddingVertical="4dp"
@@ -451,10 +454,11 @@
                                 android:textSize="11sp"
                                 android:textStyle="bold"
                                 app:layout_constraintBottom_toBottomOf="@id/tv_name_2"
-                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintEnd_toStartOf="@id/iv_arrow_2"
                                 app:layout_constraintTop_toTopOf="@id/tv_name_2" />
 
                             <ImageView
+                                android:id="@+id/iv_arrow_2"
                                 android:layout_width="16dp"
                                 android:layout_height="16dp"
                                 android:src="@drawable/ic_chevron_right"
@@ -557,9 +561,10 @@
                                 app:layout_constraintTop_toTopOf="parent" />
 
                             <TextView
+                                android:id="@+id/tv_status_3"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginStart="216dp"
+                                android:layout_marginEnd="8dp"
                                 android:background="@drawable/bg_tag_attention_yellow"
                                 android:paddingHorizontal="8dp"
                                 android:paddingVertical="4dp"
@@ -568,10 +573,11 @@
                                 android:textSize="11sp"
                                 android:textStyle="bold"
                                 app:layout_constraintBottom_toBottomOf="@id/tv_name_3"
-                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintEnd_toStartOf="@id/iv_arrow_3"
                                 app:layout_constraintTop_toTopOf="@id/tv_name_3" />
 
                             <ImageView
+                                android:id="@+id/iv_arrow_3"
                                 android:layout_width="16dp"
                                 android:layout_height="16dp"
                                 android:src="@drawable/ic_chevron_right"

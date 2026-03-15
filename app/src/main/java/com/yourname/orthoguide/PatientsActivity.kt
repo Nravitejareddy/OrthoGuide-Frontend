@@ -38,6 +38,8 @@ class PatientsActivity : AppCompatActivity() {
             finish()
         }
 
+
+
         // Handle Bottom Navigation clicks
         findViewById<View>(R.id.nav_dashboard)?.setOnClickListener {
             val intent = Intent(this, ClinicianDashboardActivity::class.java)
@@ -94,8 +96,10 @@ class PatientsActivity : AppCompatActivity() {
             startActivity(intent)
         }
         
-        findViewById<View>(R.id.fl_add_user)?.setOnClickListener {
+        findViewById<View>(R.id.btn_add_patient)?.setOnClickListener {
             val intent = Intent(this, CreatePatientActivity::class.java)
+            intent.putExtra("isEditMode", false)
+            intent.putExtra("userRole", "clinician")
             startActivity(intent)
         }
         
@@ -109,60 +113,79 @@ class PatientsActivity : AppCompatActivity() {
         
         cards.forEach { it?.setOnClickListener(openProfile) }
 
-        // Filter Logic
-        val filterAll = findViewById<TextView>(R.id.filter_all)
-        val filterCritical = findViewById<TextView>(R.id.filter_critical)
-        val filterAttention = findViewById<TextView>(R.id.filter_attention)
-        val filterOnTrack = findViewById<TextView>(R.id.filter_on_track)
+        // Search and Filter Logic
+        val etSearch = findViewById<android.widget.EditText>(R.id.et_search_patients)
+        var currentFilterId = R.id.filter_all
+        var currentSearchQuery = ""
 
-        fun updateFilters(selected: TextView?) {
-            val unselectedBg = R.drawable.bg_segment_unselected
-            val unselectedColor = Color.parseColor("#64748B")
-            val selectedBg = R.drawable.bg_segment_selected_blue
-            val selectedColor = Color.parseColor("#2563EB")
+        val patientData = listOf(
+            Pair("Robert Chen", "100982300"),
+            Pair("James Wilson", "100982100"),
+            Pair("Sarah Anderson", "100982200"),
+            Pair("Emily Davis", "100982400"),
+            Pair("Michael Brown", "100982500")
+        )
 
-            listOf(filterAll, filterCritical, filterAttention, filterOnTrack).forEach {
-                it?.setBackgroundResource(unselectedBg)
-                it?.setTextColor(unselectedColor)
-                it?.setTypeface(null, android.graphics.Typeface.NORMAL)
-            }
+        fun applyFilters() {
+            cards.forEachIndexed { index, card ->
+                if (card == null) return@forEachIndexed
+                
+                // 1. Check Segment Filter
+                val matchesFilter = when (currentFilterId) {
+                    R.id.filter_all -> true
+                    R.id.filter_critical -> index == 1
+                    R.id.filter_attention -> index == 0
+                    R.id.filter_on_track -> index >= 2
+                    else -> true
+                }
 
-            selected?.setBackgroundResource(selectedBg)
-            selected?.setTextColor(selectedColor)
-            selected?.setTypeface(null, android.graphics.Typeface.BOLD)
+                // 2. Check Search Query
+                val (name, id) = patientData[index]
+                val matchesSearch = if (currentSearchQuery.isEmpty()) {
+                    true
+                } else {
+                    name.contains(currentSearchQuery, ignoreCase = true) || 
+                    id.contains(currentSearchQuery, ignoreCase = true)
+                }
 
-            when (selected?.id) {
-                R.id.filter_all -> {
-                    cards.forEach { it?.visibility = View.VISIBLE }
-                }
-                R.id.filter_critical -> {
-                    cards[0]?.visibility = View.GONE
-                    cards[1]?.visibility = View.VISIBLE
-                    cards[2]?.visibility = View.GONE
-                    cards[3]?.visibility = View.GONE
-                    cards[4]?.visibility = View.GONE
-                }
-                R.id.filter_attention -> {
-                    cards[0]?.visibility = View.VISIBLE
-                    cards[1]?.visibility = View.GONE
-                    cards[2]?.visibility = View.GONE
-                    cards[3]?.visibility = View.GONE
-                    cards[4]?.visibility = View.GONE
-                }
-                R.id.filter_on_track -> {
-                    cards[0]?.visibility = View.GONE
-                    cards[1]?.visibility = View.GONE
-                    cards[2]?.visibility = View.VISIBLE
-                    cards[3]?.visibility = View.VISIBLE
-                    cards[4]?.visibility = View.VISIBLE
-                }
+                card.visibility = if (matchesFilter && matchesSearch) View.VISIBLE else View.GONE
             }
         }
 
-        filterAll?.setOnClickListener { updateFilters(it as android.widget.TextView) }
-        filterCritical?.setOnClickListener { updateFilters(it as android.widget.TextView) }
-        filterAttention?.setOnClickListener { updateFilters(it as android.widget.TextView) }
-        filterOnTrack?.setOnClickListener { updateFilters(it as android.widget.TextView) }
+        fun updateFilterUI(selectedId: Int) {
+            currentFilterId = selectedId
+            val filterButtons = listOf(
+                findViewById<TextView>(R.id.filter_all),
+                findViewById<TextView>(R.id.filter_critical),
+                findViewById<TextView>(R.id.filter_attention),
+                findViewById<TextView>(R.id.filter_on_track)
+            )
+
+            filterButtons.forEach { it?.setBackgroundResource(R.drawable.bg_segment_unselected) }
+            filterButtons.forEach { it?.setTextColor(Color.parseColor("#64748B")) }
+            filterButtons.forEach { it?.setTypeface(null, android.graphics.Typeface.NORMAL) }
+
+            val selected = findViewById<TextView>(selectedId)
+            selected?.setBackgroundResource(R.drawable.bg_segment_selected_blue)
+            selected?.setTextColor(Color.parseColor("#2563EB"))
+            selected?.setTypeface(null, android.graphics.Typeface.BOLD)
+
+            applyFilters()
+        }
+
+        etSearch?.addTextChangedListener(object : android.text.TextWatcher {
+            override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {}
+            override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
+                currentSearchQuery = s?.toString() ?: ""
+                applyFilters()
+            }
+            override fun afterTextChanged(s: android.text.Editable?) {}
+        })
+
+        findViewById<View>(R.id.filter_all)?.setOnClickListener { updateFilterUI(R.id.filter_all) }
+        findViewById<View>(R.id.filter_critical)?.setOnClickListener { updateFilterUI(R.id.filter_critical) }
+        findViewById<View>(R.id.filter_attention)?.setOnClickListener { updateFilterUI(R.id.filter_attention) }
+        findViewById<View>(R.id.filter_on_track)?.setOnClickListener { updateFilterUI(R.id.filter_on_track) }
     }
 
     override fun onResume() {

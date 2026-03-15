@@ -36,6 +36,28 @@ class EditProfileActivity : AppCompatActivity() {
         intent.getStringExtra("EXTRA_EMAIL")?.let { etEmail.setText(it) }
         intent.getStringExtra("EXTRA_PHONE")?.let { etPhone.setText(it) }
 
+        val tvInitials = findViewById<android.widget.TextView>(R.id.tv_initials)
+
+        fun updateInitials(name: String) {
+            val initials = name.split(" ")
+                .filter { it.isNotEmpty() }
+                .map { it[0].uppercaseChar() }
+                .take(2)
+                .joinToString("")
+            tvInitials?.text = if (initials.isNotEmpty()) initials else "--"
+        }
+
+        // Initialize initials
+        updateInitials(etName.text.toString())
+
+        etName.addTextChangedListener(object : android.text.TextWatcher {
+            override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {}
+            override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
+                updateInitials(s.toString())
+            }
+            override fun afterTextChanged(s: android.text.Editable?) {}
+        })
+
         findViewById<View>(R.id.iv_back)?.setOnClickListener {
             finish()
         }

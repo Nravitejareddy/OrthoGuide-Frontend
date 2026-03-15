@@ -37,12 +37,14 @@ class ManagePatientsActivity : AppCompatActivity() {
         findViewById<View>(R.id.btn_add_patient)?.setOnClickListener {
             val intent = Intent(this, CreatePatientActivity::class.java)
             intent.putExtra("isEditMode", false)
+            intent.putExtra("userRole", "admin")
             startActivity(intent)
         }
 
         val patientCardListener = View.OnClickListener { v ->
             val intent = Intent(this, CreatePatientActivity::class.java)
             intent.putExtra("isEditMode", true)
+            intent.putExtra("userRole", "admin")
             when (v.id) {
                 R.id.patient_card_1 -> {
                     intent.putExtra("patientId", "100982100")

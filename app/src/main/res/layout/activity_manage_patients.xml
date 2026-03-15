@@ -29,49 +29,35 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <LinearLayout
+        <TextView
+            android:id="@+id/tv_header_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:orientation="vertical"
+            android:text="Manage Patients"
+            android:textColor="#0F172A"
+            android:textSize="20sp"
+            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@id/iv_back"
-            app:layout_constraintTop_toTopOf="parent">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Manage Patients"
-                android:textColor="#0F172A"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:fontFamily="sans-serif-medium" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="5 Patients"
-                android:textColor="#94A3B8"
-                android:textSize="14sp" />
-        </LinearLayout>
+            app:layout_constraintTop_toTopOf="parent" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_add_patient"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
             android:text="New"
             android:textAllCaps="false"
             android:textColor="@color/white"
             android:textSize="14sp"
-            android:fontFamily="sans-serif-medium"
-            app:icon="@drawable/ic_plus_purple"
-            app:iconTint="@color/white"
-            app:iconSize="18dp"
-            app:iconPadding="4dp"
-            app:backgroundTint="#A855F7"
+            app:backgroundTint="#7C3AED"
             app:cornerRadius="8dp"
-            android:insetTop="0dp"
-            android:insetBottom="0dp"
+            app:icon="@drawable/ic_plus_purple"
+            app:iconPadding="4dp"
+            app:iconSize="18dp"
+            app:iconTint="@color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -82,6 +68,7 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="#F1F5F9"
+        android:visibility="gone"
         app:layout_constraintTop_toBottomOf="@id/header_layout" />
 
     <!-- Scrollable content -->
@@ -91,7 +78,7 @@
         android:clipToPadding="false"
         android:paddingBottom="100dp"
         app:layout_constraintBottom_toTopOf="@id/admin_bottom_nav"
-        app:layout_constraintTop_toBottomOf="@id/header_divider">
+        app:layout_constraintTop_toBottomOf="@id/header_layout">
 
         <LinearLayout
             android:layout_width="match_parent"

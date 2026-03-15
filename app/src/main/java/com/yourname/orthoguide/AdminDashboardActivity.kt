@@ -70,6 +70,25 @@ class AdminDashboardActivity : AppCompatActivity() {
         }
     }
 
+    override fun onResume() {
+        super.onResume()
+        updateHeader()
+    }
+
+    private fun updateHeader() {
+        val tvDate = findViewById<android.widget.TextView>(R.id.tv_today_date)
+        val tvName = findViewById<android.widget.TextView>(R.id.tv_admin_name_display)
+
+        // Set Date
+        val sdf = java.text.SimpleDateFormat("EEEE, MMM d", java.util.Locale.getDefault())
+        tvDate?.text = sdf.format(java.util.Date())
+
+        // Set Name from Prefs
+        val prefs = getSharedPreferences("OrthoGuidePrefs", MODE_PRIVATE)
+        val adminName = prefs.getString("admin_name", "System Admin")
+        tvName?.text = adminName
+    }
+
     private fun dpToPx(dp: Int): Int {
         return (dp * resources.displayMetrics.density).toInt()
     }

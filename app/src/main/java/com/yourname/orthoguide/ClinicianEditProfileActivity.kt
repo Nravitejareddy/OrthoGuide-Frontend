@@ -3,6 +3,10 @@ package com.yourname.orthoguide
 import android.graphics.Color
 import android.os.Bundle
 import android.view.View
+import android.widget.AutoCompleteTextView
+import android.widget.ArrayAdapter
+import android.widget.EditText
+import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -27,10 +31,37 @@ class ClinicianEditProfileActivity : AppCompatActivity() {
             insets
         }
 
-        val etName = findViewById<android.widget.EditText>(R.id.et_name)
-        val etRole = findViewById<android.widget.EditText>(R.id.et_role)
-        val etEmail = findViewById<android.widget.EditText>(R.id.et_email)
-        val etPhone = findViewById<android.widget.EditText>(R.id.et_phone)
+        val etName = findViewById<EditText>(R.id.et_name)
+        val etRole = findViewById<AutoCompleteTextView>(R.id.et_role)
+        val etEmail = findViewById<EditText>(R.id.et_email)
+        val etPhone = findViewById<EditText>(R.id.et_phone)
+
+        val tvInitials = findViewById<TextView>(R.id.tv_initials)
+        
+        // Setup Role Dropdown
+        val roles = arrayOf("Dentist", "Orthodontist", "Assistant")
+        val adapter = ArrayAdapter(this, R.layout.item_dropdown, roles)
+        etRole.setAdapter(adapter)
+
+        fun updateInitials(name: String) {
+            val initials = name.split(" ")
+                .filter { it.isNotEmpty() }
+                .map { it[0].uppercaseChar() }
+                .take(2)
+                .joinToString("")
+            tvInitials?.text = if (initials.isNotEmpty()) initials else "--"
+        }
+
+        // Initialize initials
+        updateInitials(etName.text.toString())
+
+        etName.addTextChangedListener(object : android.text.TextWatcher {
+            override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {}
+            override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
+                updateInitials(s.toString())
+            }
+            override fun afterTextChanged(s: android.text.Editable?) {}
+        })
 
         // Back button
         findViewById<View>(R.id.iv_back)?.setOnClickListener {
