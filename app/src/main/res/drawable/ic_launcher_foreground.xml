@@ -1,0 +1,68 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <group
+        android:translateX="24"
+        android:translateY="24"
+        android:scaleX="0.6"
+        android:scaleY="0.6">
+
+        <!-- Tooth Body -->
+        <path
+            android:fillColor="@color/white"
+            android:pathData="M50,18 C35,18 20,15 20,35 C20,55 25,90 38,90 C45,90 47,78 50,78 C53,78 55,90 62,90 C75,90 80,55 80,35 C80,15 65,18 50,18 Z" />
+
+        <!-- Eyes -->
+        <path
+            android:fillColor="@color/brand_green"
+            android:pathData="M37,45 m-5,0 a5,9 0,1 1,10 0 a5,9 0,1 1,-10 0" />
+        <path
+            android:fillColor="@color/brand_green"
+            android:pathData="M63,45 m-5,0 a5,9 0,1 1,10 0 a5,9 0,1 1,-10 0" />
+
+        <!-- Smile -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="@color/brand_green"
+            android:strokeWidth="6"
+            android:strokeLineCap="round"
+            android:pathData="M38,62 C42,70 58,70 62,62" />
+            
+        <!-- Chat Bubble - Positioned exactly as in activity_splash.xml (offset from bottom-end) -->
+        <group
+            android:translateX="68"
+            android:translateY="24"
+            android:scaleX="0.38"
+            android:scaleY="0.38">
+            <path
+                android:pathData="M20,20 H80 C90,20 95,25 95,35 V65 C95,75 90,80 80,80 H45 L15,95 L30,80 H20 C10,80 5,75 5,65 V35 C5,25 10,20 20,20 Z">
+                <aapt:attr name="android:fillColor">
+                    <gradient
+                        android:centerX="50"
+                        android:centerY="50"
+                        android:gradientRadius="50"
+                        android:type="radial">
+                        <item android:color="@color/brand_green" android:offset="0.0"/>
+                        <item android:color="@color/brand_green_dark" android:offset="1.0"/>
+
+                    </gradient>
+                </aapt:attr>
+            </path>
+            <!-- Three Dots -->
+            <path
+                android:fillColor="@color/white"
+                android:pathData="M35,50 m-4,0 a4,4 0,1 1,8 0 a4,4 0,1 1,-8 0" />
+            <path
+                android:fillColor="@color/white"
+                android:pathData="M50,50 m-4,0 a4,4 0,1 1,8 0 a4,4 0,1 1,-8 0" />
+            <path
+                android:fillColor="@color/white"
+                android:pathData="M65,50 m-4,0 a4,4 0,1 1,8 0 a4,4 0,1 1,-8 0" />
+        </group>
+    </group>
+
+</vector>

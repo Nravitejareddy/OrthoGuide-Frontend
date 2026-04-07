@@ -1,0 +1,55 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- 
+    Exact recreation of reference image.
+    - Symmetrical headset joining into a single vertical stem.
+    - Stem curves and leads to a circular head (Chest piece).
+    - Refinement: Tube path ends exactly at the boundary of the chest piece circle.
+    - Color: Professional Medical Blue (#1A6BF2).
+    -->
+
+    <!-- Headset (Arms) -->
+    <path
+        android:strokeColor="#1A6BF2"
+        android:strokeWidth="8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M35,25 C35,45 50,55 50,55" />
+    <path
+        android:strokeColor="#1A6BF2"
+        android:strokeWidth="8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M65,25 C65,45 50,55 50,55" />
+
+    <!-- Stem and Spiral Curve -->
+    <!-- The tube now ends at (85, 75) to touch the circle centered at (85, 65) with radius 10 -->
+    <path
+        android:strokeColor="#1A6BF2"
+        android:strokeWidth="8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M50,55 V65 C50,85 85,85 85,75" />
+
+    <!-- Earpiece Tips (Solid Rounds) -->
+    <path
+        android:fillColor="#1A6BF2"
+        android:pathData="M35,25m-6,0a6,6 0,1,1 12,0a6,6 0,1,1 -12,0" />
+    <path
+        android:fillColor="#1A6BF2"
+        android:pathData="M65,25m-6,0a6,6 0,1,1 12,0a6,6 0,1,1 -12,0" />
+
+    <!-- Chest Piece (Circle with inner hole) -->
+    <!-- Centered at 85,65 with radius 10 -->
+    <path
+        android:strokeColor="#1A6BF2"
+        android:strokeWidth="8"
+        android:pathData="M85,65m-10,0a10,10 0,1,1 20,0a10,10 0,1,1 -20,0" />
+    <!-- Inner solid dot detail -->
+    <path
+        android:fillColor="#1A6BF2"
+        android:pathData="M85,65m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+</vector>
