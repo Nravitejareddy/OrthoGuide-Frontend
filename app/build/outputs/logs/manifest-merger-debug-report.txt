@@ -1,0 +1,752 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:292:9-300:20
+	android:grantUriPermissions
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:296:13-47
+	android:authorities
+		INJECTED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:294:13-64
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:295:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:293:13-62
+manifest
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:2:1-303:12
+INJECTED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:2:1-303:12
+INJECTED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:2:1-303:12
+INJECTED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:2:1-303:12
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\cbca716146ffdfd8d25962ca8aa1ed68\transformed\material-1.13.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\ba4b2bc1b77cae4098a165f7528750f1\transformed\constraintlayout-2.2.1\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\43a02c71ce6b2eff844877a15380e208\transformed\appcompat-resources-1.7.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\6dda740ffe5d784ac3eed74f59395587\transformed\appcompat-1.7.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\cd5824c78059debec05aca79ffc25d15\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\SADIQ\.gradle\caches\8.13\transforms\bf0520d70bf5ff13a0b7afeeaaeae963\transformed\fragment-1.5.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.12.2] C:\Users\SADIQ\.gradle\caches\8.13\transforms\ed78da698b5797e49c4286931bbc5daa\transformed\activity-1.12.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\2c748abf5e7999a8d806fd57b64af454\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\8fee053534d74a2d4ba90a818f67711c\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\caa523fb787271517ab5e473423c5d8f\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\46e9550b34345ec07c2c2084fb6a7478\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\dbaed1d633a89d6caa98b61e479a0c7e\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\000d0e1ba352082888e6105cdd4126a0\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\4dcf5c436b563a2f7654f0c20e5a657e\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\44b4612db6ef035864da26b0e4cf2b1b\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\f9b18ce2fc8ef4d78a97ae2884ab1d6a\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\7fd1e6a6d0c1b6a54799d2287184cc2f\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\6953dda06e9f5f495e8c4de95b1c7834\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\02911faac2edf15f90bf049c2d73416a\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.17.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\1beb26044f6b98595afe40d02963ce13\transformed\core-1.17.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\89c0120ee5fcf56a7036cd52659c9cec\transformed\graphics-shapes-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\9dce6acae546e710a999aa5c71316ffe\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\SADIQ\.gradle\caches\8.13\transforms\84acbb9ed1f2c9d59d71fc3221b838c4\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\SADIQ\.gradle\caches\8.13\transforms\26f7ca0b77d2e1bb29a1e6c0afb290e2\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\SADIQ\.gradle\caches\8.13\transforms\f2ac4d52a657d8ca14fb7cede886983a\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\SADIQ\.gradle\caches\8.13\transforms\257b9f2502a3a66d3ad7fa6c57b960f8\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\SADIQ\.gradle\caches\8.13\transforms\ea9efb7673e8f853278d79ae05db747c\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\SADIQ\.gradle\caches\8.13\transforms\1c3ccdc84a61abeeb8e3d54e01ec062c\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.17.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\518f17b82c006648dc45dc751d15af7e\transformed\core-ktx-1.17.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigationevent:navigationevent-android:1.0.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\22f982785f1f4e486badcb8eb47e1d98\transformed\navigationevent\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\3b4f928aa9350e1051322aafd9333b40\transformed\core-viewtree-1.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\8bae5a5058d4a3193b82ba70be9288df\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\532e77fcc0b01e4eee41881638f8f441\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [com.github.PhilJay:MPAndroidChart:3.1.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\375d638fcc8bfd980ca2941a9116db7b\transformed\MPAndroidChart-3.1.0\AndroidManifest.xml:2:1-20:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\4b533d555bcc43a634201460877c1928\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\3899c4a995a03428429896e1c686b677\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c91d5aad7a8256f74a569c867d26fe06\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\1d5e0e9e3c4e572057a4acf64df2a921\transformed\tracing-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\ebbf3beef443671171aaaa2449d9a722\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\4c3bded64486ec96577b8c4cc40a7cca\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\2d1c2054f1c00c0d3c6f8339f8cb0718\transformed\runtime-annotation\AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:6:22-76
+application
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:8:5-301:19
+INJECTED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:8:5-301:19
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\cbca716146ffdfd8d25962ca8aa1ed68\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\cbca716146ffdfd8d25962ca8aa1ed68\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\ba4b2bc1b77cae4098a165f7528750f1\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\ba4b2bc1b77cae4098a165f7528750f1\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\8fee053534d74a2d4ba90a818f67711c\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\8fee053534d74a2d4ba90a818f67711c\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.17.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\1beb26044f6b98595afe40d02963ce13\transformed\core-1.17.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.17.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\1beb26044f6b98595afe40d02963ce13\transformed\core-1.17.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\SADIQ\.gradle\caches\8.13\transforms\f2ac4d52a657d8ca14fb7cede886983a\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\SADIQ\.gradle\caches\8.13\transforms\f2ac4d52a657d8ca14fb7cede886983a\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\532e77fcc0b01e4eee41881638f8f441\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\532e77fcc0b01e4eee41881638f8f441\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c91d5aad7a8256f74a569c867d26fe06\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c91d5aad7a8256f74a569c867d26fe06\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.17.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\1beb26044f6b98595afe40d02963ce13\transformed\core-1.17.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:13:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:11:9-54
+	android:roundIcon
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:14:9-54
+	android:icon
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:16:9-48
+	android:dataExtractionRules
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:10:9-65
+	android:usesCleartextTraffic
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:17:9-44
+activity#com.yourname.orthoguide.SplashActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:18:9-26:20
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:20:13-36
+	android:theme
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:21:13-52
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:19:13-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:22:13-25:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:24:27-74
+activity#com.yourname.orthoguide.MainActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:28:9-30:40
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:29:13-41
+activity#com.yourname.orthoguide.UnifiedLoginActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:32:9-36:58
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:35:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:36:13-55
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:33:13-49
+activity#com.yourname.orthoguide.PatientLoginActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:38:9-42:58
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:41:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:42:13-55
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:40:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:39:13-49
+activity#com.yourname.orthoguide.ConsentActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:44:9-47:52
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:47:13-49
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:45:13-44
+activity#com.yourname.orthoguide.AiCapabilitiesActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:49:9-52:52
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:52:13-49
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:51:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:50:13-51
+activity#com.yourname.orthoguide.LoginSuccessActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:54:9-57:52
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:57:13-49
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:56:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:55:13-49
+activity#com.yourname.orthoguide.DashboardActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:59:9-63:65
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:62:13-49
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:61:13-37
+	android:theme
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:63:13-62
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:60:13-46
+activity#com.yourname.orthoguide.ProgressActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:65:9-68:52
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:68:13-49
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:67:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:66:13-45
+activity#com.yourname.orthoguide.ChatBotActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:70:9-74:58
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:73:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:74:13-55
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:72:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:71:13-44
+activity#com.yourname.orthoguide.ForgotPasswordActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:77:9-81:58
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:80:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:81:13-55
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:79:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:78:13-51
+activity#com.yourname.orthoguide.VerifyOtpActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:83:9-87:58
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:86:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:87:13-55
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:85:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:84:13-46
+activity#com.yourname.orthoguide.CreateNewPasswordActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:89:9-93:58
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:92:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:93:13-55
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:91:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:90:13-54
+activity#com.yourname.orthoguide.PasswordResetSuccessActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:95:9-98:52
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:98:13-49
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:97:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:96:13-57
+activity#com.yourname.orthoguide.ProfileActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:100:9-103:52
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:103:13-49
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:102:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:101:13-44
+activity#com.yourname.orthoguide.AppointmentsActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:105:9-108:52
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:108:13-49
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:107:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:106:13-49
+activity#com.yourname.orthoguide.CareRemindersActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:110:9-113:52
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:113:13-49
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:112:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:111:13-50
+activity#com.yourname.orthoguide.ReportIssueActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:115:9-118:52
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:118:13-49
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:117:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:116:13-48
+activity#com.yourname.orthoguide.SeverityLevelActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:120:9-123:52
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:123:13-49
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:122:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:121:13-50
+activity#com.yourname.orthoguide.UploadPhotoActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:125:9-128:52
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:128:13-49
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:127:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:126:13-48
+activity#com.yourname.orthoguide.ReportSentActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:129:9-132:52
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:132:13-49
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:131:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:130:13-47
+activity#com.yourname.orthoguide.NotificationsActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:134:9-137:52
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:137:13-49
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:136:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:135:13-50
+activity#com.yourname.orthoguide.EditProfileActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:139:9-142:52
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:142:13-49
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:141:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:140:13-48
+activity#com.yourname.orthoguide.NotificationPreferencesActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:144:9-147:52
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:147:13-49
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:146:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:145:13-60
+activity#com.yourname.orthoguide.CareGuideActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:149:9-152:52
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:152:13-49
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:151:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:150:13-46
+activity#com.yourname.orthoguide.CleaningAlignersActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:154:9-157:52
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:157:13-49
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:156:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:155:13-53
+activity#com.yourname.orthoguide.FoodDrinkGuideActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:159:9-162:52
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:162:13-49
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:161:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:160:13-51
+activity#com.yourname.orthoguide.WearTimeTipsActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:164:9-167:52
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:167:13-49
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:166:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:165:13-49
+activity#com.yourname.orthoguide.CommonIssuesActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:169:9-172:52
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:172:13-49
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:171:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:170:13-49
+activity#com.yourname.orthoguide.HelpSupportActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:174:9-177:52
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:177:13-49
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:176:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:175:13-48
+activity#com.yourname.orthoguide.ManageAccountActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:179:9-182:52
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:182:13-49
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:181:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:180:13-50
+activity#com.yourname.orthoguide.ChangePasswordActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:184:9-188:58
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:187:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:188:13-55
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:186:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:185:13-51
+activity#com.yourname.orthoguide.AccountDeactivatedActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:190:9-193:52
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:193:13-49
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:192:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:191:13-55
+activity#com.yourname.orthoguide.ClinicianLoginActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:195:9-199:58
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:198:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:199:13-55
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:197:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:196:13-51
+activity#com.yourname.orthoguide.ClinicianDashboardActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:201:9-204:52
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:204:13-49
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:203:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:202:13-55
+activity#com.yourname.orthoguide.PatientsActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:206:9-209:52
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:209:13-49
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:208:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:207:13-45
+activity#com.yourname.orthoguide.ScheduleActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:211:9-214:52
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:214:13-49
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:213:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:212:13-45
+activity#com.yourname.orthoguide.ClinicianEditProfileActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:216:9-220:58
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:219:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:220:13-55
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:218:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:217:13-57
+activity#com.yourname.orthoguide.ClinicianProfileActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:222:9-225:52
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:225:13-49
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:224:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:223:13-53
+activity#com.yourname.orthoguide.PatientProfileActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:227:9-229:39
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:229:13-36
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:228:13-51
+activity#com.yourname.orthoguide.CreatePatientActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:231:9-235:58
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:234:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:235:13-55
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:233:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:232:13-50
+activity#com.yourname.orthoguide.AdminDashboardActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:237:9-240:52
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:240:13-49
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:239:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:238:13-51
+activity#com.yourname.orthoguide.ManageCliniciansActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:242:9-245:52
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:245:13-49
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:244:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:243:13-53
+activity#com.yourname.orthoguide.ManagePatientsActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:247:9-250:52
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:250:13-49
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:249:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:248:13-51
+activity#com.yourname.orthoguide.AdminSettingsActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:252:9-255:52
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:255:13-49
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:254:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:253:13-50
+activity#com.yourname.orthoguide.AdminEditProfileActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:257:9-261:58
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:260:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:261:13-55
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:259:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:258:13-53
+activity#com.yourname.orthoguide.AdminResetPasswordActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:263:9-267:58
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:266:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:267:13-55
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:265:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:264:13-55
+activity#com.yourname.orthoguide.AdminResetPatientPasswordActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:269:9-273:58
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:272:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:273:13-55
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:271:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:270:13-62
+activity#com.yourname.orthoguide.CreateClinicianActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:275:9-279:58
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:278:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:279:13-55
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:277:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:276:13-52
+activity#com.yourname.orthoguide.ReactivationRequestActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:281:9-285:58
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:284:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:285:13-55
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:283:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:282:13-56
+activity#com.yourname.orthoguide.AdminNotificationsActivity
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:287:9-290:52
+	android:screenOrientation
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:290:13-49
+	android:exported
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:289:13-37
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:288:13-55
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:297:13-299:54
+	android:resource
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:299:17-51
+	android:name
+		ADDED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:298:17-67
+uses-sdk
+INJECTED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\cbca716146ffdfd8d25962ca8aa1ed68\transformed\material-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\cbca716146ffdfd8d25962ca8aa1ed68\transformed\material-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\ba4b2bc1b77cae4098a165f7528750f1\transformed\constraintlayout-2.2.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\ba4b2bc1b77cae4098a165f7528750f1\transformed\constraintlayout-2.2.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\43a02c71ce6b2eff844877a15380e208\transformed\appcompat-resources-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\43a02c71ce6b2eff844877a15380e208\transformed\appcompat-resources-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\6dda740ffe5d784ac3eed74f59395587\transformed\appcompat-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\6dda740ffe5d784ac3eed74f59395587\transformed\appcompat-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\cd5824c78059debec05aca79ffc25d15\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\cd5824c78059debec05aca79ffc25d15\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\SADIQ\.gradle\caches\8.13\transforms\bf0520d70bf5ff13a0b7afeeaaeae963\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\SADIQ\.gradle\caches\8.13\transforms\bf0520d70bf5ff13a0b7afeeaaeae963\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.12.2] C:\Users\SADIQ\.gradle\caches\8.13\transforms\ed78da698b5797e49c4286931bbc5daa\transformed\activity-1.12.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.12.2] C:\Users\SADIQ\.gradle\caches\8.13\transforms\ed78da698b5797e49c4286931bbc5daa\transformed\activity-1.12.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\2c748abf5e7999a8d806fd57b64af454\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\2c748abf5e7999a8d806fd57b64af454\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\8fee053534d74a2d4ba90a818f67711c\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\8fee053534d74a2d4ba90a818f67711c\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\caa523fb787271517ab5e473423c5d8f\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\caa523fb787271517ab5e473423c5d8f\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\46e9550b34345ec07c2c2084fb6a7478\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\46e9550b34345ec07c2c2084fb6a7478\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\dbaed1d633a89d6caa98b61e479a0c7e\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\dbaed1d633a89d6caa98b61e479a0c7e\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\000d0e1ba352082888e6105cdd4126a0\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\000d0e1ba352082888e6105cdd4126a0\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\4dcf5c436b563a2f7654f0c20e5a657e\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\4dcf5c436b563a2f7654f0c20e5a657e\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\44b4612db6ef035864da26b0e4cf2b1b\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\44b4612db6ef035864da26b0e4cf2b1b\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\f9b18ce2fc8ef4d78a97ae2884ab1d6a\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\f9b18ce2fc8ef4d78a97ae2884ab1d6a\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\7fd1e6a6d0c1b6a54799d2287184cc2f\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\7fd1e6a6d0c1b6a54799d2287184cc2f\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\6953dda06e9f5f495e8c4de95b1c7834\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\6953dda06e9f5f495e8c4de95b1c7834\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\02911faac2edf15f90bf049c2d73416a\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\02911faac2edf15f90bf049c2d73416a\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.17.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\1beb26044f6b98595afe40d02963ce13\transformed\core-1.17.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.17.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\1beb26044f6b98595afe40d02963ce13\transformed\core-1.17.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\89c0120ee5fcf56a7036cd52659c9cec\transformed\graphics-shapes-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\89c0120ee5fcf56a7036cd52659c9cec\transformed\graphics-shapes-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\9dce6acae546e710a999aa5c71316ffe\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\9dce6acae546e710a999aa5c71316ffe\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\SADIQ\.gradle\caches\8.13\transforms\84acbb9ed1f2c9d59d71fc3221b838c4\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\SADIQ\.gradle\caches\8.13\transforms\84acbb9ed1f2c9d59d71fc3221b838c4\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\SADIQ\.gradle\caches\8.13\transforms\26f7ca0b77d2e1bb29a1e6c0afb290e2\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\SADIQ\.gradle\caches\8.13\transforms\26f7ca0b77d2e1bb29a1e6c0afb290e2\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\SADIQ\.gradle\caches\8.13\transforms\f2ac4d52a657d8ca14fb7cede886983a\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\SADIQ\.gradle\caches\8.13\transforms\f2ac4d52a657d8ca14fb7cede886983a\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\SADIQ\.gradle\caches\8.13\transforms\257b9f2502a3a66d3ad7fa6c57b960f8\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\SADIQ\.gradle\caches\8.13\transforms\257b9f2502a3a66d3ad7fa6c57b960f8\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\SADIQ\.gradle\caches\8.13\transforms\ea9efb7673e8f853278d79ae05db747c\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\SADIQ\.gradle\caches\8.13\transforms\ea9efb7673e8f853278d79ae05db747c\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\SADIQ\.gradle\caches\8.13\transforms\1c3ccdc84a61abeeb8e3d54e01ec062c\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\SADIQ\.gradle\caches\8.13\transforms\1c3ccdc84a61abeeb8e3d54e01ec062c\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.17.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\518f17b82c006648dc45dc751d15af7e\transformed\core-ktx-1.17.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.17.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\518f17b82c006648dc45dc751d15af7e\transformed\core-ktx-1.17.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigationevent:navigationevent-android:1.0.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\22f982785f1f4e486badcb8eb47e1d98\transformed\navigationevent\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigationevent:navigationevent-android:1.0.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\22f982785f1f4e486badcb8eb47e1d98\transformed\navigationevent\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\3b4f928aa9350e1051322aafd9333b40\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\3b4f928aa9350e1051322aafd9333b40\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\8bae5a5058d4a3193b82ba70be9288df\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\8bae5a5058d4a3193b82ba70be9288df\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\532e77fcc0b01e4eee41881638f8f441\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\532e77fcc0b01e4eee41881638f8f441\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.PhilJay:MPAndroidChart:3.1.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\375d638fcc8bfd980ca2941a9116db7b\transformed\MPAndroidChart-3.1.0\AndroidManifest.xml:16:5-18:41
+MERGED from [com.github.PhilJay:MPAndroidChart:3.1.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\375d638fcc8bfd980ca2941a9116db7b\transformed\MPAndroidChart-3.1.0\AndroidManifest.xml:16:5-18:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\4b533d555bcc43a634201460877c1928\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\4b533d555bcc43a634201460877c1928\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\3899c4a995a03428429896e1c686b677\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\3899c4a995a03428429896e1c686b677\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c91d5aad7a8256f74a569c867d26fe06\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c91d5aad7a8256f74a569c867d26fe06\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\1d5e0e9e3c4e572057a4acf64df2a921\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\1d5e0e9e3c4e572057a4acf64df2a921\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\ebbf3beef443671171aaaa2449d9a722\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\ebbf3beef443671171aaaa2449d9a722\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\4c3bded64486ec96577b8c4cc40a7cca\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\4c3bded64486ec96577b8c4cc40a7cca\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\2d1c2054f1c00c0d3c6f8339f8cb0718\transformed\runtime-annotation\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\2d1c2054f1c00c0d3c6f8339f8cb0718\transformed\runtime-annotation\AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\8fee053534d74a2d4ba90a818f67711c\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\SADIQ\.gradle\caches\8.13\transforms\f2ac4d52a657d8ca14fb7cede886983a\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\SADIQ\.gradle\caches\8.13\transforms\f2ac4d52a657d8ca14fb7cede886983a\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c91d5aad7a8256f74a569c867d26fe06\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c91d5aad7a8256f74a569c867d26fe06\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\8fee053534d74a2d4ba90a818f67711c\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\8fee053534d74a2d4ba90a818f67711c\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\8fee053534d74a2d4ba90a818f67711c\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\8fee053534d74a2d4ba90a818f67711c\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\8fee053534d74a2d4ba90a818f67711c\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\8fee053534d74a2d4ba90a818f67711c\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\8fee053534d74a2d4ba90a818f67711c\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.17.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\1beb26044f6b98595afe40d02963ce13\transformed\core-1.17.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.17.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\1beb26044f6b98595afe40d02963ce13\transformed\core-1.17.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.17.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\1beb26044f6b98595afe40d02963ce13\transformed\core-1.17.0\AndroidManifest.xml:23:9-81
+permission#com.yourname.orthoguide.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.17.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\1beb26044f6b98595afe40d02963ce13\transformed\core-1.17.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.17.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\1beb26044f6b98595afe40d02963ce13\transformed\core-1.17.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.17.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\1beb26044f6b98595afe40d02963ce13\transformed\core-1.17.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.17.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\1beb26044f6b98595afe40d02963ce13\transformed\core-1.17.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.17.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\1beb26044f6b98595afe40d02963ce13\transformed\core-1.17.0\AndroidManifest.xml:26:22-94
+uses-permission#com.yourname.orthoguide.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.17.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\1beb26044f6b98595afe40d02963ce13\transformed\core-1.17.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.17.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\1beb26044f6b98595afe40d02963ce13\transformed\core-1.17.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\SADIQ\.gradle\caches\8.13\transforms\f2ac4d52a657d8ca14fb7cede886983a\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\SADIQ\.gradle\caches\8.13\transforms\f2ac4d52a657d8ca14fb7cede886983a\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\SADIQ\.gradle\caches\8.13\transforms\f2ac4d52a657d8ca14fb7cede886983a\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92

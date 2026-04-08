@@ -1,0 +1,585 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.yourname.orthoguide"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="36" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:6:22-76
+13
+14    <permission
+14-->[androidx.core:core:1.17.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\1beb26044f6b98595afe40d02963ce13\transformed\core-1.17.0\AndroidManifest.xml:22:5-24:47
+15        android:name="com.yourname.orthoguide.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.17.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\1beb26044f6b98595afe40d02963ce13\transformed\core-1.17.0\AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.17.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\1beb26044f6b98595afe40d02963ce13\transformed\core-1.17.0\AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.yourname.orthoguide.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.17.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\1beb26044f6b98595afe40d02963ce13\transformed\core-1.17.0\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.17.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\1beb26044f6b98595afe40d02963ce13\transformed\core-1.17.0\AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:8:5-301:19
+21        android:allowBackup="true"
+21-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:9:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.17.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\1beb26044f6b98595afe40d02963ce13\transformed\core-1.17.0\AndroidManifest.xml:28:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:10:9-65
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:11:9-54
+27        android:icon="@mipmap/ic_launcher"
+27-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:12:9-43
+28        android:label="@string/app_name"
+28-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:13:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:14:9-54
+30        android:supportsRtl="true"
+30-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:15:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.OrthoGuide"
+32-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:16:9-48
+33        android:usesCleartextTraffic="true" >
+33-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:17:9-44
+34        <activity
+34-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:18:9-26:20
+35            android:name="com.yourname.orthoguide.SplashActivity"
+35-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:19:13-43
+36            android:exported="true"
+36-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:20:13-36
+37            android:theme="@style/Theme.OrthoGuide" >
+37-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:21:13-52
+38            <intent-filter>
+38-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:22:13-25:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:23:17-69
+39-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:23:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:24:17-77
+41-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:24:27-74
+42            </intent-filter>
+43        </activity>
+44        <activity
+44-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:28:9-30:40
+45            android:name="com.yourname.orthoguide.MainActivity"
+45-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:29:13-41
+46            android:exported="false" />
+46-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:30:13-37
+47        <activity
+47-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:32:9-36:58
+48            android:name="com.yourname.orthoguide.UnifiedLoginActivity"
+48-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:33:13-49
+49            android:exported="false"
+49-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:34:13-37
+50            android:screenOrientation="portrait"
+50-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:35:13-49
+51            android:windowSoftInputMode="adjustResize" />
+51-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:36:13-55
+52        <activity
+52-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:38:9-42:58
+53            android:name="com.yourname.orthoguide.PatientLoginActivity"
+53-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:39:13-49
+54            android:exported="false"
+54-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:40:13-37
+55            android:screenOrientation="portrait"
+55-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:41:13-49
+56            android:windowSoftInputMode="adjustResize" />
+56-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:42:13-55
+57        <activity
+57-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:44:9-47:52
+58            android:name="com.yourname.orthoguide.ConsentActivity"
+58-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:45:13-44
+59            android:exported="false"
+59-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:46:13-37
+60            android:screenOrientation="portrait" />
+60-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:47:13-49
+61        <activity
+61-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:49:9-52:52
+62            android:name="com.yourname.orthoguide.AiCapabilitiesActivity"
+62-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:50:13-51
+63            android:exported="false"
+63-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:51:13-37
+64            android:screenOrientation="portrait" />
+64-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:52:13-49
+65        <activity
+65-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:54:9-57:52
+66            android:name="com.yourname.orthoguide.LoginSuccessActivity"
+66-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:55:13-49
+67            android:exported="false"
+67-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:56:13-37
+68            android:screenOrientation="portrait" />
+68-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:57:13-49
+69        <activity
+69-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:59:9-63:65
+70            android:name="com.yourname.orthoguide.DashboardActivity"
+70-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:60:13-46
+71            android:exported="false"
+71-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:61:13-37
+72            android:screenOrientation="portrait"
+72-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:62:13-49
+73            android:theme="@style/Theme.OrthoGuide.Dashboard" />
+73-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:63:13-62
+74        <activity
+74-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:65:9-68:52
+75            android:name="com.yourname.orthoguide.ProgressActivity"
+75-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:66:13-45
+76            android:exported="false"
+76-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:67:13-37
+77            android:screenOrientation="portrait" />
+77-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:68:13-49
+78        <activity
+78-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:70:9-74:58
+79            android:name="com.yourname.orthoguide.ChatBotActivity"
+79-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:71:13-44
+80            android:exported="false"
+80-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:72:13-37
+81            android:screenOrientation="portrait"
+81-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:73:13-49
+82            android:windowSoftInputMode="adjustResize" />
+82-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:74:13-55
+83        <activity
+83-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:77:9-81:58
+84            android:name="com.yourname.orthoguide.ForgotPasswordActivity"
+84-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:78:13-51
+85            android:exported="false"
+85-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:79:13-37
+86            android:screenOrientation="portrait"
+86-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:80:13-49
+87            android:windowSoftInputMode="adjustResize" />
+87-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:81:13-55
+88        <activity
+88-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:83:9-87:58
+89            android:name="com.yourname.orthoguide.VerifyOtpActivity"
+89-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:84:13-46
+90            android:exported="false"
+90-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:85:13-37
+91            android:screenOrientation="portrait"
+91-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:86:13-49
+92            android:windowSoftInputMode="adjustResize" />
+92-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:87:13-55
+93        <activity
+93-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:89:9-93:58
+94            android:name="com.yourname.orthoguide.CreateNewPasswordActivity"
+94-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:90:13-54
+95            android:exported="false"
+95-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:91:13-37
+96            android:screenOrientation="portrait"
+96-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:92:13-49
+97            android:windowSoftInputMode="adjustResize" />
+97-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:93:13-55
+98        <activity
+98-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:95:9-98:52
+99            android:name="com.yourname.orthoguide.PasswordResetSuccessActivity"
+99-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:96:13-57
+100            android:exported="false"
+100-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:97:13-37
+101            android:screenOrientation="portrait" />
+101-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:98:13-49
+102        <activity
+102-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:100:9-103:52
+103            android:name="com.yourname.orthoguide.ProfileActivity"
+103-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:101:13-44
+104            android:exported="false"
+104-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:102:13-37
+105            android:screenOrientation="portrait" />
+105-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:103:13-49
+106        <activity
+106-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:105:9-108:52
+107            android:name="com.yourname.orthoguide.AppointmentsActivity"
+107-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:106:13-49
+108            android:exported="false"
+108-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:107:13-37
+109            android:screenOrientation="portrait" />
+109-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:108:13-49
+110        <activity
+110-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:110:9-113:52
+111            android:name="com.yourname.orthoguide.CareRemindersActivity"
+111-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:111:13-50
+112            android:exported="false"
+112-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:112:13-37
+113            android:screenOrientation="portrait" />
+113-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:113:13-49
+114        <activity
+114-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:115:9-118:52
+115            android:name="com.yourname.orthoguide.ReportIssueActivity"
+115-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:116:13-48
+116            android:exported="false"
+116-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:117:13-37
+117            android:screenOrientation="portrait" />
+117-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:118:13-49
+118        <activity
+118-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:120:9-123:52
+119            android:name="com.yourname.orthoguide.SeverityLevelActivity"
+119-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:121:13-50
+120            android:exported="false"
+120-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:122:13-37
+121            android:screenOrientation="portrait" />
+121-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:123:13-49
+122        <activity
+122-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:125:9-128:52
+123            android:name="com.yourname.orthoguide.UploadPhotoActivity"
+123-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:126:13-48
+124            android:exported="false"
+124-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:127:13-37
+125            android:screenOrientation="portrait" />
+125-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:128:13-49
+126        <activity
+126-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:129:9-132:52
+127            android:name="com.yourname.orthoguide.ReportSentActivity"
+127-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:130:13-47
+128            android:exported="false"
+128-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:131:13-37
+129            android:screenOrientation="portrait" />
+129-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:132:13-49
+130        <activity
+130-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:134:9-137:52
+131            android:name="com.yourname.orthoguide.NotificationsActivity"
+131-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:135:13-50
+132            android:exported="false"
+132-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:136:13-37
+133            android:screenOrientation="portrait" />
+133-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:137:13-49
+134        <activity
+134-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:139:9-142:52
+135            android:name="com.yourname.orthoguide.EditProfileActivity"
+135-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:140:13-48
+136            android:exported="false"
+136-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:141:13-37
+137            android:screenOrientation="portrait" />
+137-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:142:13-49
+138        <activity
+138-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:144:9-147:52
+139            android:name="com.yourname.orthoguide.NotificationPreferencesActivity"
+139-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:145:13-60
+140            android:exported="false"
+140-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:146:13-37
+141            android:screenOrientation="portrait" />
+141-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:147:13-49
+142        <activity
+142-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:149:9-152:52
+143            android:name="com.yourname.orthoguide.CareGuideActivity"
+143-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:150:13-46
+144            android:exported="false"
+144-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:151:13-37
+145            android:screenOrientation="portrait" />
+145-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:152:13-49
+146        <activity
+146-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:154:9-157:52
+147            android:name="com.yourname.orthoguide.CleaningAlignersActivity"
+147-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:155:13-53
+148            android:exported="false"
+148-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:156:13-37
+149            android:screenOrientation="portrait" />
+149-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:157:13-49
+150        <activity
+150-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:159:9-162:52
+151            android:name="com.yourname.orthoguide.FoodDrinkGuideActivity"
+151-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:160:13-51
+152            android:exported="false"
+152-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:161:13-37
+153            android:screenOrientation="portrait" />
+153-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:162:13-49
+154        <activity
+154-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:164:9-167:52
+155            android:name="com.yourname.orthoguide.WearTimeTipsActivity"
+155-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:165:13-49
+156            android:exported="false"
+156-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:166:13-37
+157            android:screenOrientation="portrait" />
+157-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:167:13-49
+158        <activity
+158-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:169:9-172:52
+159            android:name="com.yourname.orthoguide.CommonIssuesActivity"
+159-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:170:13-49
+160            android:exported="false"
+160-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:171:13-37
+161            android:screenOrientation="portrait" />
+161-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:172:13-49
+162        <activity
+162-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:174:9-177:52
+163            android:name="com.yourname.orthoguide.HelpSupportActivity"
+163-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:175:13-48
+164            android:exported="false"
+164-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:176:13-37
+165            android:screenOrientation="portrait" />
+165-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:177:13-49
+166        <activity
+166-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:179:9-182:52
+167            android:name="com.yourname.orthoguide.ManageAccountActivity"
+167-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:180:13-50
+168            android:exported="false"
+168-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:181:13-37
+169            android:screenOrientation="portrait" />
+169-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:182:13-49
+170        <activity
+170-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:184:9-188:58
+171            android:name="com.yourname.orthoguide.ChangePasswordActivity"
+171-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:185:13-51
+172            android:exported="false"
+172-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:186:13-37
+173            android:screenOrientation="portrait"
+173-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:187:13-49
+174            android:windowSoftInputMode="adjustResize" />
+174-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:188:13-55
+175        <activity
+175-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:190:9-193:52
+176            android:name="com.yourname.orthoguide.AccountDeactivatedActivity"
+176-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:191:13-55
+177            android:exported="false"
+177-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:192:13-37
+178            android:screenOrientation="portrait" />
+178-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:193:13-49
+179        <activity
+179-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:195:9-199:58
+180            android:name="com.yourname.orthoguide.ClinicianLoginActivity"
+180-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:196:13-51
+181            android:exported="false"
+181-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:197:13-37
+182            android:screenOrientation="portrait"
+182-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:198:13-49
+183            android:windowSoftInputMode="adjustResize" />
+183-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:199:13-55
+184        <activity
+184-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:201:9-204:52
+185            android:name="com.yourname.orthoguide.ClinicianDashboardActivity"
+185-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:202:13-55
+186            android:exported="false"
+186-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:203:13-37
+187            android:screenOrientation="portrait" />
+187-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:204:13-49
+188        <activity
+188-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:206:9-209:52
+189            android:name="com.yourname.orthoguide.PatientsActivity"
+189-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:207:13-45
+190            android:exported="false"
+190-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:208:13-37
+191            android:screenOrientation="portrait" />
+191-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:209:13-49
+192        <activity
+192-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:211:9-214:52
+193            android:name="com.yourname.orthoguide.ScheduleActivity"
+193-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:212:13-45
+194            android:exported="false"
+194-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:213:13-37
+195            android:screenOrientation="portrait" />
+195-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:214:13-49
+196        <activity
+196-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:216:9-220:58
+197            android:name="com.yourname.orthoguide.ClinicianEditProfileActivity"
+197-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:217:13-57
+198            android:exported="false"
+198-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:218:13-37
+199            android:screenOrientation="portrait"
+199-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:219:13-49
+200            android:windowSoftInputMode="adjustResize" />
+200-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:220:13-55
+201        <activity
+201-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:222:9-225:52
+202            android:name="com.yourname.orthoguide.ClinicianProfileActivity"
+202-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:223:13-53
+203            android:exported="false"
+203-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:224:13-37
+204            android:screenOrientation="portrait" />
+204-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:225:13-49
+205        <activity
+205-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:227:9-229:39
+206            android:name="com.yourname.orthoguide.PatientProfileActivity"
+206-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:228:13-51
+207            android:exported="true" />
+207-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:229:13-36
+208        <activity
+208-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:231:9-235:58
+209            android:name="com.yourname.orthoguide.CreatePatientActivity"
+209-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:232:13-50
+210            android:exported="false"
+210-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:233:13-37
+211            android:screenOrientation="portrait"
+211-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:234:13-49
+212            android:windowSoftInputMode="adjustResize" />
+212-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:235:13-55
+213        <activity
+213-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:237:9-240:52
+214            android:name="com.yourname.orthoguide.AdminDashboardActivity"
+214-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:238:13-51
+215            android:exported="false"
+215-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:239:13-37
+216            android:screenOrientation="portrait" />
+216-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:240:13-49
+217        <activity
+217-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:242:9-245:52
+218            android:name="com.yourname.orthoguide.ManageCliniciansActivity"
+218-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:243:13-53
+219            android:exported="false"
+219-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:244:13-37
+220            android:screenOrientation="portrait" />
+220-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:245:13-49
+221        <activity
+221-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:247:9-250:52
+222            android:name="com.yourname.orthoguide.ManagePatientsActivity"
+222-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:248:13-51
+223            android:exported="false"
+223-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:249:13-37
+224            android:screenOrientation="portrait" />
+224-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:250:13-49
+225        <activity
+225-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:252:9-255:52
+226            android:name="com.yourname.orthoguide.AdminSettingsActivity"
+226-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:253:13-50
+227            android:exported="false"
+227-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:254:13-37
+228            android:screenOrientation="portrait" />
+228-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:255:13-49
+229        <activity
+229-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:257:9-261:58
+230            android:name="com.yourname.orthoguide.AdminEditProfileActivity"
+230-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:258:13-53
+231            android:exported="false"
+231-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:259:13-37
+232            android:screenOrientation="portrait"
+232-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:260:13-49
+233            android:windowSoftInputMode="adjustResize" />
+233-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:261:13-55
+234        <activity
+234-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:263:9-267:58
+235            android:name="com.yourname.orthoguide.AdminResetPasswordActivity"
+235-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:264:13-55
+236            android:exported="false"
+236-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:265:13-37
+237            android:screenOrientation="portrait"
+237-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:266:13-49
+238            android:windowSoftInputMode="adjustResize" />
+238-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:267:13-55
+239        <activity
+239-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:269:9-273:58
+240            android:name="com.yourname.orthoguide.AdminResetPatientPasswordActivity"
+240-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:270:13-62
+241            android:exported="false"
+241-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:271:13-37
+242            android:screenOrientation="portrait"
+242-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:272:13-49
+243            android:windowSoftInputMode="adjustResize" />
+243-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:273:13-55
+244        <activity
+244-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:275:9-279:58
+245            android:name="com.yourname.orthoguide.CreateClinicianActivity"
+245-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:276:13-52
+246            android:exported="false"
+246-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:277:13-37
+247            android:screenOrientation="portrait"
+247-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:278:13-49
+248            android:windowSoftInputMode="adjustResize" />
+248-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:279:13-55
+249        <activity
+249-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:281:9-285:58
+250            android:name="com.yourname.orthoguide.ReactivationRequestActivity"
+250-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:282:13-56
+251            android:exported="false"
+251-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:283:13-37
+252            android:screenOrientation="portrait"
+252-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:284:13-49
+253            android:windowSoftInputMode="adjustResize" />
+253-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:285:13-55
+254        <activity
+254-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:287:9-290:52
+255            android:name="com.yourname.orthoguide.AdminNotificationsActivity"
+255-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:288:13-55
+256            android:exported="false"
+256-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:289:13-37
+257            android:screenOrientation="portrait" />
+257-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:290:13-49
+258
+259        <provider
+260            android:name="androidx.core.content.FileProvider"
+260-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:293:13-62
+261            android:authorities="com.yourname.orthoguide.fileprovider"
+261-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:294:13-64
+262            android:exported="false"
+262-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:295:13-37
+263            android:grantUriPermissions="true" >
+263-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:296:13-47
+264            <meta-data
+264-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:297:13-299:54
+265                android:name="android.support.FILE_PROVIDER_PATHS"
+265-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:298:17-67
+266                android:resource="@xml/file_paths" />
+266-->C:\Users\SADIQ\OneDrive\Desktop\OrthoGuideAI-main\MobileApp\app\src\main\AndroidManifest.xml:299:17-51
+267        </provider>
+268        <provider
+268-->[androidx.emoji2:emoji2:1.3.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\8fee053534d74a2d4ba90a818f67711c\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+269            android:name="androidx.startup.InitializationProvider"
+269-->[androidx.emoji2:emoji2:1.3.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\8fee053534d74a2d4ba90a818f67711c\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+270            android:authorities="com.yourname.orthoguide.androidx-startup"
+270-->[androidx.emoji2:emoji2:1.3.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\8fee053534d74a2d4ba90a818f67711c\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+271            android:exported="false" >
+271-->[androidx.emoji2:emoji2:1.3.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\8fee053534d74a2d4ba90a818f67711c\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+272            <meta-data
+272-->[androidx.emoji2:emoji2:1.3.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\8fee053534d74a2d4ba90a818f67711c\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+273                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+273-->[androidx.emoji2:emoji2:1.3.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\8fee053534d74a2d4ba90a818f67711c\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+274                android:value="androidx.startup" />
+274-->[androidx.emoji2:emoji2:1.3.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\8fee053534d74a2d4ba90a818f67711c\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+275            <meta-data
+275-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\SADIQ\.gradle\caches\8.13\transforms\f2ac4d52a657d8ca14fb7cede886983a\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+276                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+276-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\SADIQ\.gradle\caches\8.13\transforms\f2ac4d52a657d8ca14fb7cede886983a\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+277                android:value="androidx.startup" />
+277-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\SADIQ\.gradle\caches\8.13\transforms\f2ac4d52a657d8ca14fb7cede886983a\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+278            <meta-data
+278-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+279                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+279-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+280                android:value="androidx.startup" />
+280-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+281        </provider>
+282
+283        <receiver
+283-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+284            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+284-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+285            android:directBootAware="false"
+285-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+286            android:enabled="true"
+286-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+287            android:exported="true"
+287-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+288            android:permission="android.permission.DUMP" >
+288-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+289            <intent-filter>
+289-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+290                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+290-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+290-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+291            </intent-filter>
+292            <intent-filter>
+292-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+293                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+293-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+293-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+294            </intent-filter>
+295            <intent-filter>
+295-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+296                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+296-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+296-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+297            </intent-filter>
+298            <intent-filter>
+298-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+299                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+299-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+299-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\SADIQ\.gradle\caches\8.13\transforms\c6db50691216796249c918e037a2021e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+300            </intent-filter>
+301        </receiver>
+302    </application>
+303
+304</manifest>
