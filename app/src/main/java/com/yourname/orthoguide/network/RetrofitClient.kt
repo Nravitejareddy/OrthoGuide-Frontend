@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit
 object RetrofitClient {
     // 10.0.2.2 is the special IP for Android emulator to access computer's localhost
     // Use your computer's local IP for physical devices (e.g. 192.168.x.x)
-        private const val BASE_URL = "http://10.219.71.111:5001/"
+        private const val BASE_URL = "http://180.235.121.253:8170/"
 
     private val logging = HttpLoggingInterceptor().apply {
         level = HttpLoggingInterceptor.Level.BODY
