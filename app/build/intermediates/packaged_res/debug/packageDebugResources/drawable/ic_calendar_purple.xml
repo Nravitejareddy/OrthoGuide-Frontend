@@ -11,3 +11,4 @@
       android:strokeLineJoin="round"
       android:pathData="M8,2v4m8,-4v4M3,10h18M5,4h14c1.105,0 2,0.895 2,2v14c0,1.105 -0.895,2 -2,2H5c-1.105,0 -2,-0.895 -2,-2V6c0,-1.105 0.895,-2 2,-2z"/>
 </vector>
+

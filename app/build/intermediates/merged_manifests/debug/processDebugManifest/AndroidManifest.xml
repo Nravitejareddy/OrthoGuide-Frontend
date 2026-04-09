@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.yourname.orthoguide"
+    package="com.simats.orthoguide"
     android:versionCode="1"
     android:versionName="1.0.0" >
 
@@ -12,10 +12,10 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <permission
-        android:name="com.yourname.orthoguide.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="com.simats.orthoguide.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.yourname.orthoguide.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="com.simats.orthoguide.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
         android:allowBackup="true"
@@ -32,7 +32,7 @@
         android:theme="@style/Theme.OrthoGuide"
         android:usesCleartextTraffic="true" >
         <activity
-            android:name="com.yourname.orthoguide.SplashActivity"
+            android:name="com.simats.orthoguide.SplashActivity"
             android:exported="true"
             android:theme="@style/Theme.OrthoGuide" >
             <intent-filter>
@@ -42,223 +42,223 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.yourname.orthoguide.MainActivity"
+            android:name="com.simats.orthoguide.MainActivity"
             android:exported="false" />
         <activity
-            android:name="com.yourname.orthoguide.UnifiedLoginActivity"
+            android:name="com.simats.orthoguide.UnifiedLoginActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.yourname.orthoguide.PatientLoginActivity"
+            android:name="com.simats.orthoguide.PatientLoginActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.yourname.orthoguide.ConsentActivity"
+            android:name="com.simats.orthoguide.ConsentActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.yourname.orthoguide.AiCapabilitiesActivity"
+            android:name="com.simats.orthoguide.AiCapabilitiesActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.yourname.orthoguide.LoginSuccessActivity"
+            android:name="com.simats.orthoguide.LoginSuccessActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.yourname.orthoguide.DashboardActivity"
+            android:name="com.simats.orthoguide.DashboardActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.OrthoGuide.Dashboard" />
         <activity
-            android:name="com.yourname.orthoguide.ProgressActivity"
+            android:name="com.simats.orthoguide.ProgressActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.yourname.orthoguide.ChatBotActivity"
+            android:name="com.simats.orthoguide.ChatBotActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.yourname.orthoguide.ForgotPasswordActivity"
+            android:name="com.simats.orthoguide.ForgotPasswordActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.yourname.orthoguide.VerifyOtpActivity"
+            android:name="com.simats.orthoguide.VerifyOtpActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.yourname.orthoguide.CreateNewPasswordActivity"
+            android:name="com.simats.orthoguide.CreateNewPasswordActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.yourname.orthoguide.PasswordResetSuccessActivity"
+            android:name="com.simats.orthoguide.PasswordResetSuccessActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.yourname.orthoguide.ProfileActivity"
+            android:name="com.simats.orthoguide.ProfileActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.yourname.orthoguide.AppointmentsActivity"
+            android:name="com.simats.orthoguide.AppointmentsActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.yourname.orthoguide.CareRemindersActivity"
+            android:name="com.simats.orthoguide.CareRemindersActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.yourname.orthoguide.ReportIssueActivity"
+            android:name="com.simats.orthoguide.ReportIssueActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.yourname.orthoguide.SeverityLevelActivity"
+            android:name="com.simats.orthoguide.SeverityLevelActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.yourname.orthoguide.UploadPhotoActivity"
+            android:name="com.simats.orthoguide.UploadPhotoActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.yourname.orthoguide.ReportSentActivity"
+            android:name="com.simats.orthoguide.ReportSentActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.yourname.orthoguide.NotificationsActivity"
+            android:name="com.simats.orthoguide.NotificationsActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.yourname.orthoguide.EditProfileActivity"
+            android:name="com.simats.orthoguide.EditProfileActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.yourname.orthoguide.NotificationPreferencesActivity"
+            android:name="com.simats.orthoguide.NotificationPreferencesActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.yourname.orthoguide.CareGuideActivity"
+            android:name="com.simats.orthoguide.CareGuideActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.yourname.orthoguide.CleaningAlignersActivity"
+            android:name="com.simats.orthoguide.CleaningAlignersActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.yourname.orthoguide.FoodDrinkGuideActivity"
+            android:name="com.simats.orthoguide.FoodDrinkGuideActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.yourname.orthoguide.WearTimeTipsActivity"
+            android:name="com.simats.orthoguide.WearTimeTipsActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.yourname.orthoguide.CommonIssuesActivity"
+            android:name="com.simats.orthoguide.CommonIssuesActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.yourname.orthoguide.HelpSupportActivity"
+            android:name="com.simats.orthoguide.HelpSupportActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.yourname.orthoguide.ManageAccountActivity"
+            android:name="com.simats.orthoguide.ManageAccountActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.yourname.orthoguide.ChangePasswordActivity"
+            android:name="com.simats.orthoguide.ChangePasswordActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.yourname.orthoguide.AccountDeactivatedActivity"
+            android:name="com.simats.orthoguide.AccountDeactivatedActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.yourname.orthoguide.ClinicianLoginActivity"
+            android:name="com.simats.orthoguide.ClinicianLoginActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.yourname.orthoguide.ClinicianDashboardActivity"
+            android:name="com.simats.orthoguide.ClinicianDashboardActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.yourname.orthoguide.PatientsActivity"
+            android:name="com.simats.orthoguide.PatientsActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.yourname.orthoguide.ScheduleActivity"
+            android:name="com.simats.orthoguide.ScheduleActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.yourname.orthoguide.ClinicianEditProfileActivity"
+            android:name="com.simats.orthoguide.ClinicianEditProfileActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.yourname.orthoguide.ClinicianProfileActivity"
+            android:name="com.simats.orthoguide.ClinicianProfileActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.yourname.orthoguide.PatientProfileActivity"
+            android:name="com.simats.orthoguide.PatientProfileActivity"
             android:exported="true" />
         <activity
-            android:name="com.yourname.orthoguide.CreatePatientActivity"
+            android:name="com.simats.orthoguide.CreatePatientActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.yourname.orthoguide.AdminDashboardActivity"
+            android:name="com.simats.orthoguide.AdminDashboardActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.yourname.orthoguide.ManageCliniciansActivity"
+            android:name="com.simats.orthoguide.ManageCliniciansActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.yourname.orthoguide.ManagePatientsActivity"
+            android:name="com.simats.orthoguide.ManagePatientsActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.yourname.orthoguide.AdminSettingsActivity"
+            android:name="com.simats.orthoguide.AdminSettingsActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.yourname.orthoguide.AdminEditProfileActivity"
+            android:name="com.simats.orthoguide.AdminEditProfileActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.yourname.orthoguide.AdminResetPasswordActivity"
+            android:name="com.simats.orthoguide.AdminResetPasswordActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.yourname.orthoguide.AdminResetPatientPasswordActivity"
+            android:name="com.simats.orthoguide.AdminResetPatientPasswordActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.yourname.orthoguide.CreateClinicianActivity"
+            android:name="com.simats.orthoguide.CreateClinicianActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.yourname.orthoguide.ReactivationRequestActivity"
+            android:name="com.simats.orthoguide.ReactivationRequestActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.yourname.orthoguide.AdminNotificationsActivity"
+            android:name="com.simats.orthoguide.AdminNotificationsActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.yourname.orthoguide.fileprovider"
+            android:authorities="com.simats.orthoguide.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -267,7 +267,7 @@
         </provider>
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.yourname.orthoguide.androidx-startup"
+            android:authorities="com.simats.orthoguide.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"

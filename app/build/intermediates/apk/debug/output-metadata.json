@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.yourname.orthoguide",
+  "applicationId": "com.simats.orthoguide",
   "variantName": "debug",
   "elements": [
     {

@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.yourname.orthoguide"
+    namespace = "com.simats.orthoguide"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.yourname.orthoguide"
+        applicationId = "com.simats.orthoguide"
         minSdk = 24
         targetSdk = 36
         versionCode = 1

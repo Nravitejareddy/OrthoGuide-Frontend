@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.yourname.orthoguide.app-mergeDebugResources-34:/values-w400dp-port-v13/values-w400dp-port-v13.xml",
+            "outputFile": "com.simats.orthoguide.app-mergeDebugResources-34:/values-w400dp-port-v13/values-w400dp-port-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\SADIQ\\.gradle\\caches\\8.13\\transforms\\cbca716146ffdfd8d25962ca8aa1ed68\\transformed\\material-1.13.0\\res\\values-w400dp-port-v13\\values-w400dp-port-v13.xml",

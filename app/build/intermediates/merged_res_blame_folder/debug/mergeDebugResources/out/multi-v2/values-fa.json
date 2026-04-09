@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.yourname.orthoguide.app-mergeDebugResources-34:/values-fa/values-fa.xml",
+            "outputFile": "com.simats.orthoguide.app-mergeDebugResources-34:/values-fa/values-fa.xml",
             "map": [
                 {
                     "source": "C:\\Users\\SADIQ\\.gradle\\caches\\8.13\\transforms\\6dda740ffe5d784ac3eed74f59395587\\transformed\\appcompat-1.7.1\\res\\values-fa\\values-fa.xml",

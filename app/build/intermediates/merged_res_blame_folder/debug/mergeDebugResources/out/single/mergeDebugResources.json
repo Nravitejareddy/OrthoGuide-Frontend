@@ -1,1182 +1,1178 @@
 [
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_segment_selected_green.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_segment_selected_green.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_gradient_soft_green.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_gradient_soft_green.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_trash_red.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_trash_red.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_login_success_illustration.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_login_success_illustration.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_chatbot.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_chatbot.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_segment_selected_green.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_segment_selected_green.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_notif_purple.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_notif_purple.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_cleaning_aligners.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_cleaning_aligners.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_clock_outline.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_clock_outline.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_item_admin_user.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/item_admin_user.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_progress.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_progress.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_care_guide.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_care_guide.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_settings.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_settings.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_user_plus_green.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_user_plus_green.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_checkbox_unchecked.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_checkbox_unchecked.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_password_reset_success.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_password_reset_success.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_notif_calendar.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_notif_calendar.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_key_purple.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_key_purple.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_tag_blue_soft.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_tag_blue_soft.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_hashtag.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_hashtag.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\anim_rotate_clockwise.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\anim\\rotate_clockwise.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_tag_green.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_tag_green.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_notif_sparkle.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_notif_sparkle.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_wear_time_tips.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_wear_time_tips.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_user_minus_red.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_user_minus_red.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_verify_otp.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_verify_otp.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_item_patient_card.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/item_patient_card.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_nav_active.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_nav_active.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_brand_logo_master.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_brand_logo_master.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_clinician_dashboard.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_clinician_dashboard.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_switch_thumb_off.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_switch_thumb_off.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_btn_reactivate_light.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_btn_reactivate_light.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/anim_fade_in_up.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/anim/fade_in_up.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_document_text.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_document_text.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_upload_photo.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_upload_photo.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_circle_soft_blue.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_circle_soft_blue.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_patients_nav.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_patients_nav.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_gradient_soft_green.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_gradient_soft_green.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_success_circle_check.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_success_circle_check.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_ribbon_orange.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_ribbon_orange.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_item_timeline_step.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/item_timeline_step.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_item_dropdown.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\item_dropdown.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_phone.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_phone.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_calendar_date.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_calendar_date.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_error_banner.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_error_banner.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\xml\\backup_rules.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_edit.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_edit.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_dashboard_grid.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_dashboard_grid.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_sparkle_green.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_sparkle_green.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_notification_preferences.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_notification_preferences.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_action_report.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_action_report.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_item_schedule_timeslot.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\item_schedule_timeslot.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_segment_unselected.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_segment_unselected.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_consent.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_consent.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_appointments.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_appointments.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_mail_outline.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_mail_outline.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_patient_login.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_patient_login.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_notification_bell.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_notification_bell.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_location.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_location.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_secure_login_button.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_secure_login_button.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_users_blue.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_users_blue.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_report_issue.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_report_issue.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_checkbox_checked_square.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_checkbox_checked_square.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_segment_unselected.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_segment_unselected.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_care_reminders.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_care_reminders.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_tag_active_light.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_tag_active_light.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_secure_login_button.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_secure_login_button.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_calendar_purple.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_calendar_purple.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_create_clinician.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_create_clinician.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_ribbon_red.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_ribbon_red.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_circle_light_orange.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_circle_light_orange.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_circle_patient.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_circle_patient.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_signup.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_signup.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_email_green.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_email_green.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_appliance_blue.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_appliance_blue.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_appliance_blue.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_appliance_blue.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_tag_yellow.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_tag_yellow.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_circle_light_orange.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_circle_light_orange.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_wear_time_tips.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_wear_time_tips.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\anim_fade_out.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\anim\\fade_out.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_report_sent.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_report_sent.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_progress_nav.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_progress_nav.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_circle_yellow.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_circle_yellow.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_user_add_white.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_user_add_white.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_tag_glass.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_tag_glass.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_report_sent.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_report_sent.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_floating_nav.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_floating_nav.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_check_green.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_check_green.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_notif_calendar.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_notif_calendar.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_circle_soft_green.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_circle_soft_green.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_reactivation_request.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_reactivation_request.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_circle_blue.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_circle_blue.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/xml_file_paths.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/xml/file_paths.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_card_premium.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_card_premium.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_spinner_stroke.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_spinner_stroke.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_main_gradient.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_main_gradient.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/color_selector_switch_track_color.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/color/selector_switch_track_color.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_visibility_on.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_visibility_on.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_logout.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_logout.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_tag_red.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_tag_red.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_action_ai.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_action_ai.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_dialog_rounded.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_dialog_rounded.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_action_reminders.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_action_reminders.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_clinician_edit_profile.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_clinician_edit_profile.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_action_reminders.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_action_reminders.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_back_arrow.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_back_arrow.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_help_support.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_help_support.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_fork_knife_yellow.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_fork_knife_yellow.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_dashboard.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_dashboard.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_admin_reset_password.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_admin_reset_password.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_btn_reset_light.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_btn_reset_light.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_action_reminders.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_action_reminders.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_user_plus_green.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_user_plus_green.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_card_indicator_green.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_card_indicator_green.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_medical_cross.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_medical_cross.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_tag_inactive_light.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_tag_inactive_light.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_search_bar.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_search_bar.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_notification_preferences.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_notification_preferences.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_admin_reset_password.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_admin_reset_password.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_chatbot.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_chatbot.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_upload_photo.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_upload_photo.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_verify_otp.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_verify_otp.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_notif_orange.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_notif_orange.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_report_issue.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_report_issue.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_success_circle_check.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_success_circle_check.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_role_card_developer.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_role_card_developer.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_item_reactivation_request.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\item_reactivation_request.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_email_green.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_email_green.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_circle_blue_solid.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_circle_blue_solid.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_gradient_soft_blue.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_gradient_soft_blue.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_chat_bubble_splash.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_chat_bubble_splash.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_tooth_logo_main.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_tooth_logo_main.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_reactivation_request.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_reactivation_request.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_consent.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_consent.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_circle_soft_red.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_circle_soft_red.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_warning_note.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_warning_note.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_bell_container.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_bell_container.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_dashboard_grid.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_dashboard_grid.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_dot_green.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_dot_green.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_logout.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_logout.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\anim_fade_in_up.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\anim\\fade_in_up.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_medical_cross.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_medical_cross.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_checkbox_unchecked_square.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_checkbox_unchecked_square.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_edit_profile.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_edit_profile.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_segment_selected_blue.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_segment_selected_blue.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_water_drop_blue.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_water_drop_blue.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_role_card_developer.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_role_card_developer.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_circle_blue_solid.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_circle_blue_solid.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_gradient_soft_blue.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_gradient_soft_blue.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_tab_container.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_tab_container.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_hashtag.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_hashtag.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_check_filled.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_check_filled.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_circle_glass.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_circle_glass.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_user_add_white.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_user_add_white.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_btn_primary_purple.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_btn_primary_purple.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_close_red_small.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_close_red_small.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_password_reset_success.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_password_reset_success.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_severity_selected.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_severity_selected.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_logout_red.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_logout_red.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_manage_clinicians.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_manage_clinicians.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_profile.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_profile.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_manage_patients.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_manage_patients.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_dialog_delete_account.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\dialog_delete_account.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_check_green.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_check_green.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_tag_inactive_light.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_tag_inactive_light.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_tag_green_soft.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_tag_green_soft.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_unified_login.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_unified_login.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_selector_checkbox_tick_style.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/selector_checkbox_tick_style.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_tab_active.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_tab_active.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_action_reminders.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_action_reminders.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_warning_circle.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_warning_circle.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_notification_glass.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_notification_glass.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_care_guide.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_care_guide.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_cross_red.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_cross_red.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_switch_thumb_on.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_switch_thumb_on.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_item_appointment.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/item_appointment.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_users_blue.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_users_blue.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_search_grey.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_search_grey.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_progress_circle.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_progress_circle.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/anim_fade_in.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/anim/fade_in.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_login_success_illustration.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_login_success_illustration.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_dot_red.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_dot_red.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_user_silhouette.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_user_silhouette.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_close.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_close.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_user_minus_red.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_user_minus_red.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_circle_soft_green.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_circle_soft_green.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_progress_circle_green.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_progress_circle_green.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_note_rounded.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_note_rounded.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_item_chat_user.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/item_chat_user.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_checkbox_checked.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_checkbox_checked.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_btn_reactivate_light.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_btn_reactivate_light.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_btn_deactivate_light.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_btn_deactivate_light.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_circle_soft_grey.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_circle_soft_grey.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_admin_header_purple.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_admin_header_purple.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_dialog_delete_account.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/dialog_delete_account.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_ai_capabilities.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_ai_capabilities.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_btn_primary_purple.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_btn_primary_purple.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_tag_red.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_tag_red.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/xml_data_extraction_rules.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_toast_white.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_toast_white.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_progress_nav.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_progress_nav.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_notif_green.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_notif_green.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_patients.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_patients.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\anim_fade_in.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\anim\\fade_in.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_circle_blue.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_circle_blue.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_doctor.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_doctor.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_shield_secure.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_shield_secure.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_nav_dot_purple.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_nav_dot_purple.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_bell.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_bell.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_change_password.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_change_password.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_tag_blue_soft.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_tag_blue_soft.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_shield_check.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_shield_check.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_calendar_date.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_calendar_date.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_tag_green.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_tag_green.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_segment_selected_blue.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_segment_selected_blue.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\xml\\data_extraction_rules.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_patient_profile.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_patient_profile.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_tab_container.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_tab_container.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_circle_red.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_circle_red.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_dialog_rounded.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_dialog_rounded.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_edit_profile.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_edit_profile.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_notif_check.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_notif_check.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_ribbon_red.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_ribbon_red.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_create_clinician.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_create_clinician.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_calendar_gradient.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_calendar_gradient.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_warning_red.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_warning_red.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_checkbox_checked.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_checkbox_checked.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_home_nav.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_home_nav.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_tooth_logo_square.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_tooth_logo_square.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_tag_grey.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_tag_grey.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_dialog_success.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/dialog_success.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_severity_unselected.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_severity_unselected.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_trash_red.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_trash_red.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_dashboard_logo.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_dashboard_logo.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_settings.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_settings.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_item_patient_card.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\item_patient_card.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_item_clinician_patient.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/item_clinician_patient.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_circle_soft_purple.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_circle_soft_purple.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_severity_level.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_severity_level.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_notification_glass.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_notification_glass.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_warning_circle.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_warning_circle.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_close.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_close.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_circle_soft_purple.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_circle_soft_purple.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_shield_secure.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_shield_secure.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_btn_deactivate_light.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_btn_deactivate_light.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_chevron_right.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_chevron_right.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_help_support.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_help_support.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_card_indicator_green.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_card_indicator_green.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_nav_dot_purple.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_nav_dot_purple.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_tooth_logo_main.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_tooth_logo_main.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_calendar_purple.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_calendar_purple.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_selector_checkbox_tick_style.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\selector_checkbox_tick_style.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_card_premium.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_card_premium.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_stethoscope.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_stethoscope.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_circle_green.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_circle_green.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_clinician_profile.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_clinician_profile.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_checkbox_unchecked.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_checkbox_unchecked.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_selector_checkbox_custom.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/selector_checkbox_custom.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_tag_orange.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_tag_orange.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_success_check_large.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_success_check_large.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_checkbox_tick_checked.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_checkbox_tick_checked.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_create_patient.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_create_patient.xml"
     },
     {
-        "merged": "com.yourname.orthoguide.app-debug-36:/layout_activity_care_reminders.xml.flat",
-        "source": "com.yourname.orthoguide.app-main-38:/layout/activity_care_reminders.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_circle_glass.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_circle_glass.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_chat_nav.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_chat_nav.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_admin_reset_patient_password.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_admin_reset_patient_password.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_severity_level.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_severity_level.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_notification_bell.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_notification_bell.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_pill_status.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_pill_status.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_btn_reset_light.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_btn_reset_light.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_profile_nav.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_profile_nav.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_main.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_clock_cyan.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_clock_cyan.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_dentist.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_dentist.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_edit_profile.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_edit_profile.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_notif_sparkle.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_notif_sparkle.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_severity_selected.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_severity_selected.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_splash.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_splash.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_create_patient.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_create_patient.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_action_report_gradient.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_action_report_gradient.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_clock_green2.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_clock_green2.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_tooth_splash.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_tooth_splash.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_tag_glass.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_tag_glass.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_progress_step_done.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_progress_step_done.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_item_clinician_patient.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\item_clinician_patient.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_dev_brackets.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_dev_brackets.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_key_purple.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_key_purple.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_status_inactive.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_status_inactive.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_warning_blue.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_warning_blue.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_toast_white.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_toast_white.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\animator_sl_role_card_animation.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\animator\\sl_role_card_animation.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_clinician_profile.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_clinician_profile.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_bottom_sheet_schedule_session.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\bottom_sheet_schedule_session.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_notif_blue.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_notif_blue.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\color_selector_dropdown_stroke.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\color\\selector_dropdown_stroke.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_home_nav.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_home_nav.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_tag_green_soft.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_tag_green_soft.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_user_silhouette.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_user_silhouette.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_calendar_outline.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_calendar_outline.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_checkbox_tick_unchecked.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_checkbox_tick_unchecked.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_phone_outline.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_phone_outline.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_rounded_logo_gradient.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_rounded_logo_gradient.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_tag_yellow.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_tag_yellow.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_btn_green_round.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_btn_green_round.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_edittext_rounded.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_edittext_rounded.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_plus_purple.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_plus_purple.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_dentist.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_dentist.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_sync_refresh.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_sync_refresh.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_item_chat_assistant.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\item_chat_assistant.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_forgot_password.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_forgot_password.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_bell.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_bell.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_checkbox_unchecked_square.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_checkbox_unchecked_square.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\xml_file_paths.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\xml\\file_paths.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_item_schedule_timeslot.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/item_schedule_timeslot.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_forgot_password.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_forgot_password.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_action_ai.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_action_ai.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_dot_green.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_dot_green.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_ribbon_orange.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_ribbon_orange.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_check_filled.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_check_filled.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_pill_status.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_pill_status.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_fork_knife_yellow.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_fork_knife_yellow.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_clinician_login.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_clinician_login.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_help.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_help.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_dashboard.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_dashboard.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_progress_step_current.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_progress_step_current.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_ribbon_green.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_ribbon_green.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_floating_nav.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_floating_nav.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_bottom_sheet_schedule_session.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/bottom_sheet_schedule_session.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_action_report_gradient.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_action_report_gradient.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_stethoscope.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_stethoscope.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_signup.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_signup.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_change_password.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_change_password.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_tag_attention_yellow.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_tag_attention_yellow.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_warning_orange.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_warning_orange.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_chevron_left.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_chevron_left.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_note_rounded.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_note_rounded.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_status_active.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_status_active.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_nav_active.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_nav_active.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_circle_yellow.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_circle_yellow.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/animator_sl_role_card_animation.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/animator/sl_role_card_animation.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_segment_selected_orange.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_segment_selected_orange.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_calendar_outline.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_calendar_outline.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_card_outline.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_card_outline.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_chevron_right.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_chevron_right.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_notifications.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_notifications.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_logout_red.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_logout_red.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_reset_password.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_reset_password.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_document_text.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_document_text.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_phone.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_phone.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_visibility_off.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_visibility_off.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_sparkle_green.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_sparkle_green.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_splash_gradient.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_splash_gradient.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_clinician_login.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_clinician_login.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_squircle_glass.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_squircle_glass.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_notif_unread_dot.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_notif_unread_dot.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_lock.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_lock.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_dialog_confirm_action.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\dialog_confirm_action.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_edittext_rounded.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_edittext_rounded.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_layout_chart_marker.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\layout_chart_marker.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_doctor.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_doctor.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_action_care.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_action_care.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_refresh.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_refresh.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_pulse_green.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_pulse_green.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_dot_green.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_dot_green.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_item_priority_patient.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/item_priority_patient.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_water_drop_blue.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_water_drop_blue.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_admin_settings.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_admin_settings.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_item_notification.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\item_notification.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_layout_custom_success_toast.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/layout_custom_success_toast.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_admin_reset_patient_password.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_admin_reset_patient_password.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_clinician_header_blue.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_clinician_header_blue.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_close_red_small.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_close_red_small.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/color_selector_dropdown_stroke.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/color/selector_dropdown_stroke.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_layout_custom_success_toast.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\layout_custom_success_toast.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_item_schedule_entry.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/item_schedule_entry.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_segment_selected_red.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_segment_selected_red.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_action_care.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_action_care.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_admin_settings.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_admin_settings.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_dashboard_logo.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_dashboard_logo.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_plus_purple.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_plus_purple.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_admin_dashboard.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_admin_dashboard.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_action_care_gradient.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_action_care_gradient.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_dashboard_header.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_dashboard_header.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_item_priority_patient.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\item_priority_patient.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_clock_green2.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_clock_green2.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_calendar_gradient.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_calendar_gradient.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_main_gradient.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_main_gradient.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_item_admin_user.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\item_admin_user.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_sparkle_large.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_sparkle_large.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_btn_deactivate.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_btn_deactivate.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/color_selector_checkbox_green.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/color/selector_checkbox_green.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_circle_green.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_circle_green.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_pulse_green.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_pulse_green.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_progress_step_upcoming.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_progress_step_upcoming.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_warning_blue.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_warning_blue.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_location.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_location.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_unified_login.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_unified_login.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_progress_step_done.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_progress_step_done.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_progress_circle.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_progress_circle.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_search_grey.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_search_grey.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_dialog_confirm_action.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/dialog_confirm_action.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_action_care.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_action_care.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_gradient_soft_red.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_gradient_soft_red.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_rounded_logo_gradient.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_rounded_logo_gradient.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_progress_step_upcoming.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_progress_step_upcoming.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_admin_dashboard.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_admin_dashboard.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_profile.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_profile.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_visibility_off.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_visibility_off.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_schedule.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_schedule.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_tooth_logo_square.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_tooth_logo_square.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_notif_badge.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_notif_badge.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_patient_login.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_patient_login.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_ai_capabilities.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_ai_capabilities.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_edit_profile.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_edit_profile.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_visibility_on.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_visibility_on.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_common_issues.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_common_issues.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_warning_red.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_warning_red.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_estimated_response_card.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_estimated_response_card.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_circle_light_blue.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_circle_light_blue.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_circle_soft_grey.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_circle_soft_grey.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_circle_light_green.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_circle_light_green.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_success_circle_large.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_success_circle_large.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_search_bar.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_search_bar.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_warning_orange.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_warning_orange.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_cb_custom_selector.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/cb_custom_selector.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_tooth_splash.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_tooth_splash.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_create_new_password.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_create_new_password.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_btn_green_round.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_btn_green_round.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_mail_outline.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_mail_outline.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_ribbon_green.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_ribbon_green.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_bell_container.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_bell_container.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_patient_profile.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_patient_profile.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_circle_patient.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_circle_patient.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_selector_switch_thumb.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\selector_switch_thumb.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_chat_bubble_splash.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_chat_bubble_splash.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_antigravity_logo.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_antigravity_logo.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_food_drink_guide.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_food_drink_guide.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_clinician_edit_profile.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_clinician_edit_profile.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_success_circle_large.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_success_circle_large.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_manage_account.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_manage_account.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_progress_step_current.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_progress_step_current.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_dashboard_header.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_dashboard_header.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_manage_account.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_manage_account.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_sync_refresh.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_sync_refresh.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_tag_orange.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_tag_orange.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_patients_nav.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_patients_nav.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_chevron_left.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_chevron_left.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_dialog_activate_account.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\dialog_activate_account.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_notif_purple.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_notif_purple.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_splash.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_splash.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_rounded_icon.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_rounded_icon.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_sparkle_large.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_sparkle_large.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_progress.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_progress.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_lock.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_lock.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/xml_backup_rules.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\color_selector_checkbox_green.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\color\\selector_checkbox_green.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_selector_switch_thumb.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/selector_switch_thumb.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_spinner_stroke.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_spinner_stroke.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_estimated_response_card.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_estimated_response_card.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_admin_notifications.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_admin_notifications.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_shield_check.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_shield_check.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_gradient_blue.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_gradient_blue.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_item_dropdown.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/item_dropdown.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_splash_gradient.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_splash_gradient.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_admin_header_purple.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_admin_header_purple.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_main.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_btn_add_purple.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_btn_add_purple.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_dialog_success.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\dialog_success.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_help.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_help.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_circle_light_blue.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_circle_light_blue.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_admin_edit_profile.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_admin_edit_profile.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_manage_patients.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_manage_patients.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_role_card_user.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_role_card_user.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_gradient_soft_red.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_gradient_soft_red.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_checkbox_tick_checked.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_checkbox_tick_checked.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_care_reminders.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_care_reminders.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_tag_attention_yellow.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_tag_attention_yellow.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_back_arrow.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_back_arrow.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_reset_password.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_reset_password.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_create_new_password.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_create_new_password.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_item_notification.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/item_notification.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_circle_light_green.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_circle_light_green.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_action_report.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_action_report.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_action_ai.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_action_ai.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_common_issues.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_common_issues.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_dev_brackets.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_dev_brackets.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/anim_fade_out.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/anim/fade_out.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_admin_edit_profile.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_admin_edit_profile.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_bottom_sheet.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_bottom_sheet.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_dialog_deactivate_account.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\dialog_deactivate_account.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_notif_badge.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_notif_badge.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_profile_nav.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_profile_nav.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_clinician_header_blue.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_clinician_header_blue.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_warning_purple.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_warning_purple.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_cleaning_aligners.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_cleaning_aligners.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_card_outline.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_card_outline.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_patients.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_patients.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_action_care_gradient.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_action_care_gradient.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_item_timeline_step.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\item_timeline_step.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_circle_soft_blue.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_circle_soft_blue.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_item_schedule_entry.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\item_schedule_entry.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_gradient_blue.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_gradient_blue.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_bottom_sheet.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_bottom_sheet.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_notifications.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_notifications.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_action_ai_gradient.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_action_ai_gradient.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_segment_selected_red.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_segment_selected_red.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_status_inactive.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_status_inactive.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_severity_unselected.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_severity_unselected.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_notif_blue.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_notif_blue.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_check.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_check.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_squircle_soft_purple.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_squircle_soft_purple.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_notif_unread_dot.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_notif_unread_dot.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_switch_thumb_off.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_switch_thumb_off.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_layout_chart_marker.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/layout_chart_marker.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_progress_circle_green.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_progress_circle_green.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_action_reminders_gradient.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_action_reminders_gradient.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_rounded_icon.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_rounded_icon.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_action_ai_gradient.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_action_ai_gradient.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_manage_clinicians.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_manage_clinicians.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_dot_green.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_dot_green.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_refresh.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_refresh.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_chat_nav.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_chat_nav.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_item_appointment.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\item_appointment.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_clock_outline.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_clock_outline.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_btn_add_purple.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_btn_add_purple.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_item_reactivation_request.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/item_reactivation_request.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_error_banner.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_error_banner.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_admin_notifications.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_admin_notifications.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_action_reminders_gradient.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_action_reminders_gradient.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_phone_outline.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_phone_outline.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_account_deactivated.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_account_deactivated.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_login_success.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_login_success.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\color_selector_switch_track_color.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\color\\selector_switch_track_color.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_notif_orange.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_notif_orange.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_login_success.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_login_success.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_clock_cyan.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_clock_cyan.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_check.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_check.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_block.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_block.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_selector_checkbox_custom.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\selector_checkbox_custom.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/anim_rotate_clockwise.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/anim/rotate_clockwise.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_cb_custom_selector.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\cb_custom_selector.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_item_chat_assistant.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/item_chat_assistant.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_rounded_input.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_rounded_input.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_dialog_activate_account.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/dialog_activate_account.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_item_chat_user.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\item_chat_user.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_rounded_input.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_rounded_input.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_block.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_block.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_clinician_dashboard.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_clinician_dashboard.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_action_report.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_action_report.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_switch_thumb_on.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_switch_thumb_on.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_warning_purple.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_warning_purple.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_squircle_soft_purple.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_squircle_soft_purple.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_squircle_glass.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_squircle_glass.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_dialog_deactivate_account.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/dialog_deactivate_account.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_warning_note.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_warning_note.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_antigravity_logo.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_antigravity_logo.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_action_report.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_action_report.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_action_care.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_action_care.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_cross_red.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_cross_red.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_btn_deactivate.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_btn_deactivate.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_checkbox_checked_square.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_checkbox_checked_square.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_tag_grey.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_tag_grey.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_checkbox_tick_unchecked.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_checkbox_tick_unchecked.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_circle_soft_red.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_circle_soft_red.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_circle_red.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_circle_red.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_notif_green.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_notif_green.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_edit.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_edit.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_notif_check.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_notif_check.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_brand_logo_master.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_brand_logo_master.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_segment_selected_orange.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_segment_selected_orange.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_action_ai.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_action_ai.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_success_check_large.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_success_check_large.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_status_active.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_status_active.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_food_drink_guide.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_food_drink_guide.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_tag_active_light.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_tag_active_light.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_schedule.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_schedule.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_ic_dot_red.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\ic_dot_red.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/layout_activity_account_deactivated.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/layout/activity_account_deactivated.xml"
     },
     {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\layout_activity_appointments.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\layout\\activity_appointments.xml"
-    },
-    {
-        "merged": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-debug-36:\\drawable_bg_role_card_user.xml.flat",
-        "source": "C:\\Users\\SADIQ\\.gradle\\daemon\\8.13\\com.yourname.orthoguide.app-main-38:\\drawable\\bg_role_card_user.xml"
+        "merged": "com.simats.orthoguide.app-debug-36:/drawable_bg_tab_active.xml.flat",
+        "source": "com.simats.orthoguide.app-main-38:/drawable/bg_tab_active.xml"
     }
 ]
