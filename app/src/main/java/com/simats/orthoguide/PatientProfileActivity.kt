@@ -252,15 +252,12 @@ class PatientProfileActivity : AppCompatActivity() {
         
         fun showScheduleBottomSheet() {
             val bottomSheetDialog = com.google.android.material.bottomsheet.BottomSheetDialog(this)
-            bottomSheetDialog.window?.apply {
-                navigationBarColor = android.graphics.Color.WHITE
+            bottomSheetDialog.window?.let { window ->
                 @Suppress("DEPRECATION")
-                if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
-                    var flags = decorView.systemUiVisibility
-                    flags = flags or android.view.View.SYSTEM_UI_FLAG_LIGHT_NAVIGATION_BAR
-                    decorView.systemUiVisibility = flags
-                }
+                window.navigationBarColor = android.graphics.Color.WHITE
+                WindowInsetsControllerCompat(window, window.decorView).isAppearanceLightNavigationBars = true
             }
+
             val view = layoutInflater.inflate(R.layout.bottom_sheet_schedule_session, null)
             bottomSheetDialog.setContentView(view)
             

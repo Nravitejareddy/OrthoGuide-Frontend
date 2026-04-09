@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.OrthoGuide" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/brand_green</item>
+        <item name="colorSecondary">@color/brand_green_light</item>
+        <item name="colorOnPrimary">#1A1C21</item>
+    </style>
+</resources>

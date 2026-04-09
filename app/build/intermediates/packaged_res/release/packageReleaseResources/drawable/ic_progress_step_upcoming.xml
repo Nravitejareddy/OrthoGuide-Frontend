@@ -1,0 +1,16 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="40dp"
+    android:height="40dp"
+    android:viewportWidth="40"
+    android:viewportHeight="40">
+    <!-- Light Tint Fill -->
+    <path
+        android:fillColor="#F3F4F6"
+        android:pathData="M20,20m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0" />
+    <!-- Outlined Circle -->
+    <path
+        android:strokeColor="#E5E7EB"
+        android:strokeWidth="2"
+        android:pathData="M20,20m-19,0a19,19 0,1 1,38 0a19,19 0,1 1,-38 0" />
+</vector>
+

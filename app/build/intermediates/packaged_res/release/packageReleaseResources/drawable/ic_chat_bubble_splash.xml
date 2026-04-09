@@ -1,0 +1,36 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="45dp"
+    android:height="45dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Rounded Chat Bubble with Gradient -->
+    <path
+        android:pathData="M20,20 H80 C90,20 95,25 95,35 V65 C95,75 90,80 80,80 H45 L15,95 L30,80 H20 C10,80 5,75 5,65 V35 C5,25 10,20 20,20 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="50"
+                android:centerY="50"
+                android:gradientRadius="50"
+                android:type="radial">
+                <item android:color="@color/brand_green" android:offset="0.0"/>
+                <item android:color="@color/brand_green_dark" android:offset="1.0"/>
+
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Exactly Positioned Three Dots -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M35,50 m-4,0 a4,4 0,1 1,8 0 a4,4 0,1 1,-8 0" />
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M50,50 m-4,0 a4,4 0,1 1,8 0 a4,4 0,1 1,-8 0" />
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M65,50 m-4,0 a4,4 0,1 1,8 0 a4,4 0,1 1,-8 0" />
+
+</vector>
+

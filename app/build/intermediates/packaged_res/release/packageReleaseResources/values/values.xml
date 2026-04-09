@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_emerald">#10B981</color>
+    <color name="accent_emerald_soft">#D1FAE5</color>
+    <color name="accent_green">#1abc9c</color>
+    <color name="accent_yellow">#FBBF24</color>
+    <color name="admin_bg_glass">#33FFFFFF</color>
+    <color name="admin_purple">#8B5CF6</color>
+    <color name="admin_purple_dark">#6D28D9</color>
+    <color name="admin_purple_light">#A78BFA</color>
+    <color name="admin_purple_soft">#EDE9FE</color>
+    <color name="admin_purple_vivid">#7C3AED</color>
+    <color name="black">#FF000000</color>
+    <color name="blue_icon">#2196F3</color>
+    <color name="border_light">#F0F2F5</color>
+    <color name="brand_green">#10B981</color>
+    <color name="brand_green_dark">#059669</color>
+    <color name="brand_green_light">#34D399</color>
+    <color name="card_developer_bg">#E1F5FE</color>
+    <color name="card_user_bg">#F1F8E9</color>
+    <color name="chat_bubble_green">#25D366</color>
+    <color name="clinician_icon_bg">#E8F4FD</color>
+    <color name="dark_teal">#004D40</color>
+    <color name="error_red">#EF4444</color>
+    <color name="error_soft">#FEF2F2</color>
+    <color name="glass_white">#BCFFFFFF</color>
+    <color name="gray_light">#9E9E9E</color>
+    <color name="gray_text">#757575</color>
+    <color name="info_blue">#3B82F6</color>
+    <color name="patient_icon_bg">#E8F8F0</color>
+    <color name="purple_soft">#F5F3FF</color>
+    <color name="shadow_soft">#1A000000</color>
+    <color name="success_green">#10B981</color>
+    <color name="success_soft">#ECFDF5</color>
+    <color name="surface_card">#FFFFFF</color>
+    <color name="surface_light">#F3F4F6</color>
+    <color name="surface_variant">#F9FAFB</color>
+    <color name="teal_light">#26A69A</color>
+    <color name="teal_soft">#B2DFDB</color>
+    <color name="teal_vibrant_background">#008080</color>
+    <color name="text_body">#4B5563</color>
+    <color name="text_muted">#9CA3AF</color>
+    <color name="text_primary">#333333</color>
+    <color name="text_secondary">#AAAAAA</color>
+    <color name="text_title">#111827</color>
+    <color name="vibrant_green">#69F0AE</color>
+    <color name="warning_yellow">#F59E0B</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="action_ai_assistant">AI Assistant</string>
+    <string name="action_care_guide">Care Guide</string>
+    <string name="action_reminders">Reminders</string>
+    <string name="action_report_issue">Report Issue</string>
+    <string name="ai_can_do_1">Answer questions about your appliance care</string>
+    <string name="ai_can_do_2">Provide guidance for minor discomfort</string>
+    <string name="ai_can_do_3">Remind you about elastics and hygiene</string>
+    <string name="ai_can_do_4">Explain your treatment progress</string>
+    <string name="ai_cannot_do_1">Diagnose medical conditions</string>
+    <string name="ai_cannot_do_2">Prescribe medication</string>
+    <string name="ai_cannot_do_3">Handle medical emergencies</string>
+    <string name="ai_capabilities_title">AI Capabilities</string>
+    <string name="ai_support_desc">I understand that OrthoCare AI provides guidance based on my data but does not replace professional medical advice.</string>
+    <string name="ai_support_title">AI Support Consent</string>
+    <string name="app_name">OrthoGuide</string>
+    <string name="appointment_details">10:30 AM • Dr. Smith</string>
+    <string name="appointment_title">Regular Appointment</string>
+    <string name="authenticated_via">Authenticated via DIAS Secure Gateway</string>
+    <string name="complete_label">COMPLETE</string>
+    <string name="consent_intro">Before we begin, please review and accept the following terms regarding your treatment data and AI assistance.</string>
+    <string name="consent_title">Consent &amp; Data</string>
+    <string name="continue_text">Continue</string>
+    <string name="current_stage_label">Current Stage</string>
+    <string name="current_stage_value">Alignment Phase</string>
+    <string name="dashboard_app_name">OrthoGuide</string>
+    <string name="dashboard_greeting">Good Morning,</string>
+    <string name="dashboard_user_name">Sarah Anderson</string>
+    <string name="dias_data_desc">I agree to have my treatment data synced with the Dental Integrated Analytics System for clinical monitoring.</string>
+    <string name="dias_data_title">DIAS Data Usage</string>
+    <string name="dias_sync_status">Updated just now</string>
+    <string name="dias_sync_title">DIAS SYNC</string>
+    <string name="emergency_warning_text">If you experience severe pain, bleeding, or trauma, please contact your clinic immediately or visit the emergency room.</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="i_understand">I Understand</string>
+    <string name="login_successful">Login Successful</string>
+    <string name="my_progress_title">My Progress</string>
+    <string name="nav_chat">Chat</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_progress">Progress</string>
+    <string name="next_appointment_label">NEXT APPOINTMENT</string>
+    <string name="password">Password</string>
+    <string name="patient_id">Patient ID</string>
+    <string name="patient_id_helper">10-12 digit number</string>
+    <string name="patient_id_hint">e.g. 100234567890</string>
+    <string name="patient_login_title">Patient Login</string>
+    <string name="privacy_policy_desc">I have read and agree to the Privacy Policy and Terms of Service.</string>
+    <string name="privacy_policy_title">Privacy Policy</string>
+    <string name="progress_subtitle">Track your treatment journey</string>
+    <string name="quick_actions_label">QUICK ACTIONS</string>
+    <string name="read_policy">Read Policy</string>
+    <string name="secure_login">Secure Login</string>
+    <string name="stage_1_date">Aug 15, 2025</string>
+    <string name="stage_1_title">Initial Consultation</string>
+    <string name="stage_2_date">Sep 01, 2025</string>
+    <string name="stage_2_title">Bonding / First Trays</string>
+    <string name="stage_3_status_current">Current</string>
+    <string name="stage_3_title">Alignment Phase</string>
+    <string name="stage_4_est">Est. Jan 2026</string>
+    <string name="stage_4_title">Bite Correction</string>
+    <string name="stage_5_est">Est. Jun 2026</string>
+    <string name="stage_5_title">Finishing &amp; Detailing</string>
+    <string name="stage_6_est">Est. Aug 2026</string>
+    <string name="stage_6_title">Debonding &amp; Retention</string>
+    <string name="status_current">CURRENT</string>
+    <string name="status_done">DONE</string>
+    <string name="treatment_complete_pct">33%</string>
+    <string name="treatment_in_progress">Treatment in Progress</string>
+    <string name="treatment_journey_label">TREATMENT JOURNEY</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="welcome_back_user">Welcome back, Sarah</string>
+    <string name="welcome_subtitle">Enter your credentials to access your treatment plan</string>
+    <string name="what_ai_can_do">What AI Can Do</string>
+    <string name="what_ai_cannot_do">What AI Cannot Do</string>
+    <style name="Base.Theme.OrthoGuide" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/brand_green</item>
+        <item name="colorSecondary">@color/brand_green</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSecondary">@color/white</item>
+    </style>
+    <style name="BottomNavIcon">
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:tint">#9CA3AF</item>
+    </style>
+    <style name="BottomNavTab">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+    <style name="BottomNavText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:textColor">#9CA3AF</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="BulletDotGreen">
+        <item name="android:layout_width">8dp</item>
+        <item name="android:layout_height">8dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:src">@drawable/ic_dot_green</item>
+    </style>
+    <style name="BulletDotRed">
+        <item name="android:layout_width">8dp</item>
+        <item name="android:layout_height">8dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:src">@drawable/ic_dot_red</item>
+    </style>
+    <style name="BulletListContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">top</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+    <style name="BulletText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">12dp</item>
+        <item name="android:textColor">#5F6368</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+    </style>
+    <style name="GridItem">
+        <item name="android:layout_width">54dp</item>
+        <item name="android:layout_height">54dp</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#374151</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/bg_severity_unselected</item>
+    </style>
+    <style name="Theme.OrthoGuide" parent="Base.Theme.OrthoGuide"/>
+    <style name="Theme.OrthoGuide.Dashboard" parent="Theme.OrthoGuide">
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+    <style name="WhitePopupMenuTheme" parent="Theme.Material3.Light">
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:textColor">#1E293B</item>
+    </style>
+</resources>

@@ -45,9 +45,8 @@ class ReactivationRequestAdapter(
         holder.tvReason.text = request.reason
         
         // Handle optional time display
-        if (request.createdAt != null) {
-            holder.tvTime?.text = request.createdAt.split("T")[0]
-        }
+        holder.tvTime?.text = request.createdAt.split("T")[0]
+
 
         // Handle unread status styling
         if (isRead) {

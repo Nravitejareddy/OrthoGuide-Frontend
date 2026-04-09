@@ -49,12 +49,9 @@ class CreateNewPasswordActivity : AppCompatActivity() {
         val ivToggleNew = findViewById<android.widget.ImageView>(R.id.iv_toggle_new_password)
         val ivToggleConfirm = findViewById<android.widget.ImageView>(R.id.iv_toggle_confirm_password)
 
-        if (etNewPassword != null && ivToggleNew != null) {
-            com.simats.orthoguide.util.PasswordToggleHelper.setupPasswordToggle(etNewPassword, ivToggleNew)
-        }
-        if (etConfirmPassword != null && ivToggleConfirm != null) {
-            com.simats.orthoguide.util.PasswordToggleHelper.setupPasswordToggle(etConfirmPassword, ivToggleConfirm)
-        }
+        com.simats.orthoguide.util.PasswordToggleHelper.setupPasswordToggle(etNewPassword, ivToggleNew)
+        com.simats.orthoguide.util.PasswordToggleHelper.setupPasswordToggle(etConfirmPassword, ivToggleConfirm)
+
 
         val email = intent.getStringExtra("EMAIL") ?: ""
         val role = intent.getStringExtra("ROLE") ?: "patient"
